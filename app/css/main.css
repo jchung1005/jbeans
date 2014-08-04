@@ -1,0 +1,441 @@
+/* ==========================================================================
+Base
+========================================================================== */
+
+
+html, body {
+  height: 100%; 
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 15px;
+  line-height: 1.64;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+  padding-bottom: 10%;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-padding {
+  padding: 90px 0 100px;
+}
+
+
+/* ==========================================================================
+Hero
+========================================================================== */
+
+.hero {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed; 
+
+  width: 100%;
+
+}
+.hero .container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height: 700px;
+}
+
+.hero .container > * {
+  color: white;
+}
+
+/* ==========================================================================
+Animations
+========================================================================== */
+
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .zoomIn { 
+  visibility: visible !important; 
+}
+.hidden {
+  visibility: hidden;
+}
+
+/* ==========================================================================
+Intro
+========================================================================== */
+
+
+.intro { 
+  background: #f3f5f8; 
+}
+.intro p { 
+  margin: 50px 0 0; 
+}
+
+
+/* ==========================================================================
+Portfolio
+========================================================================== */
+
+.swag { 
+  -webkit-background-size: cover; 
+   -moz-background-size: cover; 
+   -o-background-size: cover; 
+   background-size: cover; 
+  background-attachment: fixed; 
+  padding: 50px 0; 
+  height: 350px;
+}
+.swag h1 { 
+  color: #fff; 
+  font-size: 40px; 
+  text-transform: uppercase; 
+  letter-spacing: 5px; 
+}
+.swag h1 span { 
+  display: block; 
+  font-size: 25px; 
+  margin-top: 20px; 
+}
+
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+.delay-1.5s { animation-delay: 1.5s; -webkit-animation-delay: 0.5s; }
+.delay-2s { animation-delay: 2s; -webkit-animation-delay: 1s; }
+
+.portfolio .columns {
+  padding: 0.3rem;
+}
+
+.portfolio {
+  background: #f3f5f8;
+}
+
+.portfolio figure {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  overflow: hidden;
+  margin: -0.135em;
+  height: 300px;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.portfolio figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  opacity: 0.5;
+}
+
+.portfolio figure figcaption {
+  padding: 2em;
+  color: #BFBFBF;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.portfolio figure figcaption,
+.portfolio figure a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.portfolio figure a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.portfolio figure h2 {
+  word-spacing: -0.15em;
+  color: #fff;
+  font-weight: 300;
+}
+
+/*---------------*/
+/***** Bubba *****/
+/*---------------*/
+
+figure.effect-bubba {
+  background: #1D2939;
+}
+
+figure.effect-bubba img {
+  opacity: 0.8;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+figure.effect-bubba:hover img {
+  opacity: 0.4;
+}
+
+figure.effect-bubba figcaption::before,
+figure.effect-bubba figcaption::after {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba figcaption::before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+figure.effect-bubba figcaption::after {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1,0);
+  transform: scale(1,0);
+}
+
+figure.effect-bubba h2 {
+  padding-top: 30%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,-15px,0);
+  transform: translate3d(0,-15px,0);
+}
+
+figure.effect-bubba p {
+  padding: 5px 2.5em;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0);
+  transform: translate3d(0,20px,0);
+}
+
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.effect-bubba:hover h2,
+figure.effect-bubba:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/* ==========================================================================
+Footer
+========================================================================== */
+
+footer {
+  background-color: #333;
+}
+
+footer ul {
+  list-style: none;
+  text-align: left;
+  margin: 10%;
+}
+
+/* ==========================================================================
+CV
+========================================================================== */ 
+.exp-timeline {
+  margin-top: 100px;
+}
+.exp-timeline ul.items {
+  margin-left: 0;
+}
+.exp-timeline ul.items li {
+  display: block;
+  margin-bottom: 2.5rem;
+}
+.exp-timeline ul.items li .active {
+  background: #008cba;
+  height: 0.625rem;
+  float: left;
+  position: relative;
+}
+.exp-timeline ul.items li .start {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: absolute;
+  left: 0;
+  background: #008cba;
+  border-radius: 50%;
+  top: -0.3125rem;
+  left: -0.625rem;
+}
+.exp-timeline ul.items li .finish {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: absolute;
+  right: 0;
+  background: #008cba;
+  border-radius: 50%;
+  top: -0.3125rem;
+  right: -0.625rem;
+}
+.exp-timeline ul.items li .inactive {
+  background: #eee;
+  height: 0.625rem;
+  float: left;
+}
+
+ul.dates {
+  background: #008cba;
+  width: 100%;
+  height: 2.5rem;
+  margin: 0;
+}
+ul.dates li {
+  color: #fff;
+  margin: 0.625rem 0 0 0;
+  width: 20%;
+  font-weight: bold;
+  font-size: 0.8125rem;
+  text-align: center;
+}
+/* ==========================================================================
+CV - Pie Chart
+========================================================================== */
+[ac-chart] {
+  float:left;
+  width: 100%;
+  height: 300px;
+  margin: 1%;
+}
+
+[data-pie-id] > *:nth-child(7n+1), [data-bar-id] > *:nth-child(7n+1), [data-line-id] > *:nth-child(7n+1) {
+  color: #f23d3d; }
+[data-pie-id] > *:nth-child(7n+2), [data-bar-id] > *:nth-child(7n+2), [data-line-id] > *:nth-child(7n+2) {
+  color: #f02121; }
+[data-pie-id] > *:nth-child(7n+3), [data-bar-id] > *:nth-child(7n+3), [data-line-id] > *:nth-child(7n+3) {
+  color: #e61010; }
+[data-pie-id] > *:nth-child(7n+4), [data-bar-id] > *:nth-child(7n+4), [data-line-id] > *:nth-child(7n+4) {
+  color: #cf0e0e; }
+[data-pie-id] > *:nth-child(7n+5), [data-bar-id] > *:nth-child(7n+5), [data-line-id] > *:nth-child(7n+5) {
+  color: #ba0d0d; }
+[data-pie-id] > *:nth-child(7n+6), [data-bar-id] > *:nth-child(7n+6), [data-line-id] > *:nth-child(7n+6) {
+  color: #a70c0c; }
+[data-pie-id] > *:nth-child(7n+7), [data-bar-id] > *:nth-child(7n+7), [data-line-id] > *:nth-child(7n+7) {
+  color: #960b0b; }
+
+#pie, #donut, #bar {
+  max-height: 450px; }
+
+
+svg {
+  width: 100%;
+  height: auto; }
+
+.tooltip {
+  margin-left: -5px;
+  border-radius: 3px;
+  padding: 5px; }
+
+ul[data-pie-id] {
+  list-style: none;
+  padding: 10px; }
+
+/* ==========================================================================
+Navigation Bar
+========================================================================== */
+
+.toggle-topbar i {
+  font-size: 1.75rem;
+  padding: 0 15px;
+  color: #008cba;
+}
+nav.top-bar.expanded {
+  height: 216px;
+}
+
+nav.top-bar {
+  transition: height .3s ease-in-out;
+}
+
+.fade.ng-enter{
+  -webkit-transition: 1s linear all; /* Chrome */
+  transition: 1s linear all;
+  opacity: 0;
+}
+
+.fade.ng-enter-active{
+  opacity: 1;
+}
+
+/* ==========================================================================
+Footer
+========================================================================== */
+
+.social-links {
+  border-left: 1px solid #fff;
+  margin: 30px 0 30px 0;
+  padding: 15px;
+}
+
+
+.social-links ul li a {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.social-links ul li i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.footer-info {
+  margin: 50px 0 30px 0;
+  padding: 50px 0 50px 0;
+  color: #fff; 
+}
+
+.footer-info i {
+  font-size: 30px;
+  color: #FF3333;
+  text-shadow: 0 1px 3px ghostwhite;
+}
+
+@media all and (max-width: 640px) {
+  .social-links {
+    border-left: none;
+    margin: 0;
+    padding: 0;
+  }
+  .social-links ul {
+    display: inline-block;
+  }
+  .footer-info {
+    width: auto;
+    margin: 10px;
+    border-bottom: 1px solid #fff;  
+  }
+}

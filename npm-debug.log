@@ -1,0 +1,1127 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/jeaniechung/projects/jeaniedotcom',
+5 verbose install   [ 'karma',
+5 verbose install     'karma-junit-reporter',
+5 verbose install     'protractor',
+5 verbose install     'http-server',
+5 verbose install     'bower',
+5 verbose install     'shelljs',
+5 verbose install     'grunt',
+5 verbose install     'grunt-contrib-nodeunit',
+5 verbose install     'grunt-autoprefixer',
+5 verbose install     'grunt-bower-install',
+5 verbose install     'grunt-concurrent',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-coffee',
+5 verbose install     'grunt-contrib-compass',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-connect',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-htmlmin',
+5 verbose install     'grunt-contrib-imagemin',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-google-cdn',
+5 verbose install     'grunt-karma',
+5 verbose install     'grunt-newer',
+5 verbose install     'grunt-ngmin',
+5 verbose install     'grunt-rev',
+5 verbose install     'grunt-svgmin',
+5 verbose install     'grunt-usemin',
+5 verbose install     'load-grunt-tasks',
+5 verbose install     'time-grunt',
+5 verbose install     'jshint-stylish' ] ]
+6 info preinstall jeaniedotcom@0.0.1
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping protractor@~0.20.1 /Users/jeaniechung/projects/jeaniedotcom
+9 verbose already installed skipping karma-junit-reporter@^0.2.2 /Users/jeaniechung/projects/jeaniedotcom
+10 verbose already installed skipping http-server@^0.6.1 /Users/jeaniechung/projects/jeaniedotcom
+11 verbose already installed skipping bower@^1.3.1 /Users/jeaniechung/projects/jeaniedotcom
+12 verbose already installed skipping shelljs@^0.2.6 /Users/jeaniechung/projects/jeaniedotcom
+13 verbose already installed skipping grunt@~0.4.5 /Users/jeaniechung/projects/jeaniedotcom
+14 verbose already installed skipping grunt-contrib-nodeunit@~0.3.3 /Users/jeaniechung/projects/jeaniedotcom
+15 verbose already installed skipping grunt-bower-install@~0.7.0 /Users/jeaniechung/projects/jeaniedotcom
+16 verbose already installed skipping grunt-autoprefixer@~0.4.0 /Users/jeaniechung/projects/jeaniedotcom
+17 verbose already installed skipping grunt-concurrent@~0.4.1 /Users/jeaniechung/projects/jeaniedotcom
+18 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/jeaniechung/projects/jeaniedotcom
+19 verbose already installed skipping grunt-contrib-coffee@~0.7.0 /Users/jeaniechung/projects/jeaniedotcom
+20 verbose already installed skipping grunt-contrib-compass@^0.7.2 /Users/jeaniechung/projects/jeaniedotcom
+21 verbose already installed skipping grunt-contrib-concat@~0.3.0 /Users/jeaniechung/projects/jeaniedotcom
+22 verbose already installed skipping grunt-contrib-connect@~0.5.0 /Users/jeaniechung/projects/jeaniedotcom
+23 verbose already installed skipping grunt-contrib-copy@~0.4.1 /Users/jeaniechung/projects/jeaniedotcom
+24 verbose already installed skipping grunt-contrib-htmlmin@~0.1.3 /Users/jeaniechung/projects/jeaniedotcom
+25 verbose already installed skipping grunt-contrib-cssmin@~0.7.0 /Users/jeaniechung/projects/jeaniedotcom
+26 verbose already installed skipping grunt-contrib-imagemin@~0.3.0 /Users/jeaniechung/projects/jeaniedotcom
+27 verbose already installed skipping grunt-contrib-jshint@~0.7.1 /Users/jeaniechung/projects/jeaniedotcom
+28 verbose already installed skipping grunt-contrib-watch@~0.5.2 /Users/jeaniechung/projects/jeaniedotcom
+29 verbose already installed skipping grunt-contrib-uglify@~0.2.0 /Users/jeaniechung/projects/jeaniedotcom
+30 verbose already installed skipping grunt-google-cdn@~0.2.0 /Users/jeaniechung/projects/jeaniedotcom
+31 verbose already installed skipping grunt-karma@~0.8.2 /Users/jeaniechung/projects/jeaniedotcom
+32 verbose already installed skipping grunt-newer@~0.5.4 /Users/jeaniechung/projects/jeaniedotcom
+33 verbose already installed skipping grunt-ngmin@~0.0.2 /Users/jeaniechung/projects/jeaniedotcom
+34 verbose already installed skipping grunt-rev@~0.1.0 /Users/jeaniechung/projects/jeaniedotcom
+35 verbose already installed skipping grunt-svgmin@~0.2.0 /Users/jeaniechung/projects/jeaniedotcom
+36 verbose already installed skipping load-grunt-tasks@~0.2.0 /Users/jeaniechung/projects/jeaniedotcom
+37 verbose already installed skipping grunt-usemin@~2.0.0 /Users/jeaniechung/projects/jeaniedotcom
+38 verbose already installed skipping time-grunt@~0.2.1 /Users/jeaniechung/projects/jeaniedotcom
+39 verbose cache add [ 'jshint-stylish@~0.1.3', null ]
+40 verbose cache add name=undefined spec="jshint-stylish@~0.1.3" args=["jshint-stylish@~0.1.3",null]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: 'jshint-stylish@~0.1.3',
+41 verbose parsed url   path: 'jshint-stylish@~0.1.3',
+41 verbose parsed url   href: 'jshint-stylish@~0.1.3' }
+42 verbose cache add name="jshint-stylish" spec="~0.1.3" args=["jshint-stylish","~0.1.3"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '~0.1.3',
+43 verbose parsed url   path: '~0.1.3',
+43 verbose parsed url   href: '~0.1.3' }
+44 verbose addNamed [ 'jshint-stylish', '~0.1.3' ]
+45 verbose addNamed [ null, '>=0.1.3-0 <0.2.0-0' ]
+46 verbose already installed skipping karma@>=0.10 /Users/jeaniechung/projects/jeaniedotcom
+47 silly lockFile fe42dd62-jshint-stylish-0-1-3 jshint-stylish@~0.1.3
+48 verbose lock jshint-stylish@~0.1.3 /Users/jeaniechung/.npm/fe42dd62-jshint-stylish-0-1-3.lock
+49 silly addNameRange { name: 'jshint-stylish',
+49 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+49 silly addNameRange   hasData: false }
+50 verbose url raw jshint-stylish
+51 verbose url resolving [ 'https://registry.npmjs.org/', './jshint-stylish' ]
+52 verbose url resolved https://registry.npmjs.org/jshint-stylish
+53 info trying registry request attempt 1 at 10:07:24
+54 verbose etag "24XQK3SUAEJIAI32TYXI3X6DM"
+55 http GET https://registry.npmjs.org/jshint-stylish
+56 http 200 https://registry.npmjs.org/jshint-stylish
+57 silly registry.get cb [ 200,
+57 silly registry.get   { date: 'Tue, 08 Jul 2014 15:07:24 GMT',
+57 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+57 silly registry.get     etag: '"F2QJ11C84K731LVK8NZP7VVB2"',
+57 silly registry.get     'content-type': 'application/json',
+57 silly registry.get     'cache-control': 'max-age=30',
+57 silly registry.get     'content-length': '10022',
+57 silly registry.get     'accept-ranges': 'bytes',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     age: '1319',
+57 silly registry.get     'x-served-by': 'cache-dfw1833-DFW',
+57 silly registry.get     'x-cache': 'HIT',
+57 silly registry.get     'x-cache-hits': '9',
+57 silly registry.get     'x-timer': 'S1404832044.400323,VS0,VE0',
+57 silly registry.get     vary: 'Accept',
+57 silly registry.get     'keep-alive': 'timeout=10, max=50',
+57 silly registry.get     connection: 'Keep-Alive' } ]
+58 silly addNameRange number 2 { name: 'jshint-stylish',
+58 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+58 silly addNameRange   hasData: true }
+59 silly addNameRange versions [ 'jshint-stylish',
+59 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5', '0.2.0' ] ]
+60 verbose addNamed [ 'jshint-stylish', '0.1.5' ]
+61 verbose addNamed [ '0.1.5', '0.1.5' ]
+62 silly lockFile 8bde7229-jshint-stylish-0-1-5 jshint-stylish@0.1.5
+63 verbose lock jshint-stylish@0.1.5 /Users/jeaniechung/.npm/8bde7229-jshint-stylish-0-1-5.lock
+64 silly lockFile 8bde7229-jshint-stylish-0-1-5 jshint-stylish@0.1.5
+65 silly lockFile 8bde7229-jshint-stylish-0-1-5 jshint-stylish@0.1.5
+66 silly lockFile fe42dd62-jshint-stylish-0-1-3 jshint-stylish@~0.1.3
+67 silly lockFile fe42dd62-jshint-stylish-0-1-3 jshint-stylish@~0.1.3
+68 silly resolved [ { name: 'jshint-stylish',
+68 silly resolved     version: '0.1.5',
+68 silly resolved     description: 'Stylish reporter for JSHint',
+68 silly resolved     license: 'MIT',
+68 silly resolved     repository:
+68 silly resolved      { type: 'git',
+68 silly resolved        url: 'git://github.com/sindresorhus/jshint-stylish' },
+68 silly resolved     author:
+68 silly resolved      { name: 'Sindre Sorhus',
+68 silly resolved        email: 'sindresorhus@gmail.com',
+68 silly resolved        url: 'http://sindresorhus.com' },
+68 silly resolved     engines: { node: '>=0.10.0' },
+68 silly resolved     scripts: { test: 'mocha' },
+68 silly resolved     files: [ 'index.js', 'stylish.js' ],
+68 silly resolved     keywords: [ 'jshint', 'reporter', 'lint', 'validate', 'stylish', 'elegant' ],
+68 silly resolved     dependencies: { chalk: '~0.4.0', 'text-table': '~0.2.0' },
+68 silly resolved     devDependencies: { mocha: '*', jshint: '~2' },
+68 silly resolved     readme: '# jshint-stylish [![Build Status](https://secure.travis-ci.org/sindresorhus/jshint-stylish.png?branch=master)](http://travis-ci.org/sindresorhus/jshint-stylish)\n\n> Stylish reporter for [JSHint](https://github.com/jshint/jshint)\n\n![screenshot](screenshot.png)\n\nCompared to the default reporter:\n\n![default reporter](screenshot-default-formatter.png)\n\n\n## Install\n\nInstall with [npm](https://npmjs.org/package/jshint-stylish): `npm install --save-dev jshint-stylish`\n\n\n## Getting started\n\nUse it with:\n\n#### JSHint CLI\n\n```\njshint --reporter node_modules/jshint-stylish/stylish.js file.js\n```\n\n#### [gulp-jshint](https://github.com/wearefractal/gulp-jshint)\n\n```js\ngulp.task(\'default\', function () {\n\tgulp.src([\'file.js\'])\n\t\t.pipe(jshint(\'.jshintrc\'))\n\t\t.pipe(jshint.reporter(\'jshint-stylish\'));\n});\n```\n\n#### [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)\n\n```js\ngrunt.initConfig({\n\tjshint: {\n\t\toptions: {\n\t\t\treporter: require(\'jshint-stylish\')\n\t\t},\n\t\ttarget: [\'file.js\']\n\t}\n});\n\ngrunt.loadNpmTasks(\'grunt-contrib-jshint\');\ngrunt.registerTask(\'default\', [\'jshint\']);\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
+68 silly resolved     readmeFilename: 'readme.md',
+68 silly resolved     bugs: { url: 'https://github.com/sindresorhus/jshint-stylish/issues' },
+68 silly resolved     homepage: 'https://github.com/sindresorhus/jshint-stylish',
+68 silly resolved     _id: 'jshint-stylish@0.1.5',
+68 silly resolved     _from: 'jshint-stylish@~0.1.3' } ]
+69 info install jshint-stylish@0.1.5 into /Users/jeaniechung/projects/jeaniedotcom
+70 info installOne jshint-stylish@0.1.5
+71 info /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish unbuild
+72 verbose tar unpack /Users/jeaniechung/.npm/jshint-stylish/0.1.5/package.tgz
+73 silly lockFile ec6c3f17-tcom-node-modules-jshint-stylish tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish
+74 verbose lock tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish /Users/jeaniechung/.npm/ec6c3f17-tcom-node-modules-jshint-stylish.lock
+75 silly lockFile b04742f6-jshint-stylish-0-1-5-package-tgz tar:///Users/jeaniechung/.npm/jshint-stylish/0.1.5/package.tgz
+76 verbose lock tar:///Users/jeaniechung/.npm/jshint-stylish/0.1.5/package.tgz /Users/jeaniechung/.npm/b04742f6-jshint-stylish-0-1-5-package-tgz.lock
+77 silly gunzTarPerm modes [ '755', '644' ]
+78 silly gunzTarPerm extractEntry package.json
+79 silly gunzTarPerm extractEntry index.js
+80 silly gunzTarPerm extractEntry stylish.js
+81 silly gunzTarPerm extractEntry readme.md
+82 silly lockFile ec6c3f17-tcom-node-modules-jshint-stylish tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish
+83 silly lockFile ec6c3f17-tcom-node-modules-jshint-stylish tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish
+84 silly lockFile b04742f6-jshint-stylish-0-1-5-package-tgz tar:///Users/jeaniechung/.npm/jshint-stylish/0.1.5/package.tgz
+85 silly lockFile b04742f6-jshint-stylish-0-1-5-package-tgz tar:///Users/jeaniechung/.npm/jshint-stylish/0.1.5/package.tgz
+86 info preinstall jshint-stylish@0.1.5
+87 verbose readDependencies using package.json deps
+88 verbose readDependencies using package.json deps
+89 verbose cache add [ 'chalk@~0.4.0', null ]
+90 verbose cache add name=undefined spec="chalk@~0.4.0" args=["chalk@~0.4.0",null]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'chalk@~0.4.0',
+91 verbose parsed url   path: 'chalk@~0.4.0',
+91 verbose parsed url   href: 'chalk@~0.4.0' }
+92 verbose cache add name="chalk" spec="~0.4.0" args=["chalk","~0.4.0"]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '~0.4.0',
+93 verbose parsed url   path: '~0.4.0',
+93 verbose parsed url   href: '~0.4.0' }
+94 verbose addNamed [ 'chalk', '~0.4.0' ]
+95 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+96 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+97 verbose lock chalk@~0.4.0 /Users/jeaniechung/.npm/bc9fb696-chalk-0-4-0.lock
+98 verbose cache add [ 'text-table@~0.2.0', null ]
+99 verbose cache add name=undefined spec="text-table@~0.2.0" args=["text-table@~0.2.0",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: 'text-table@~0.2.0',
+100 verbose parsed url   path: 'text-table@~0.2.0',
+100 verbose parsed url   href: 'text-table@~0.2.0' }
+101 verbose cache add name="text-table" spec="~0.2.0" args=["text-table","~0.2.0"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '~0.2.0',
+102 verbose parsed url   path: '~0.2.0',
+102 verbose parsed url   href: '~0.2.0' }
+103 verbose addNamed [ 'text-table', '~0.2.0' ]
+104 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+105 silly lockFile 4d621c99-text-table-0-2-0 text-table@~0.2.0
+106 verbose lock text-table@~0.2.0 /Users/jeaniechung/.npm/4d621c99-text-table-0-2-0.lock
+107 silly addNameRange { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+108 silly addNameRange { name: 'text-table',
+108 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+108 silly addNameRange   hasData: false }
+109 verbose url raw chalk
+110 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+111 verbose url resolved https://registry.npmjs.org/chalk
+112 info trying registry request attempt 1 at 10:07:24
+113 verbose etag "98NNAPL5ZIWUJVX5VXQSZLFLR"
+114 http GET https://registry.npmjs.org/chalk
+115 verbose url raw text-table
+116 verbose url resolving [ 'https://registry.npmjs.org/', './text-table' ]
+117 verbose url resolved https://registry.npmjs.org/text-table
+118 info trying registry request attempt 1 at 10:07:24
+119 verbose etag "42ZJXV4XLL6BQ85CIAVQ8H8EK"
+120 http GET https://registry.npmjs.org/text-table
+121 http 304 https://registry.npmjs.org/chalk
+122 silly registry.get cb [ 304,
+122 silly registry.get   { date: 'Tue, 08 Jul 2014 15:07:24 GMT',
+122 silly registry.get     server: 'Apache',
+122 silly registry.get     via: '1.1 varnish',
+122 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 15:07:24 GMT',
+122 silly registry.get     'cache-control': 'max-age=30',
+122 silly registry.get     etag: '"98NNAPL5ZIWUJVX5VXQSZLFLR"',
+122 silly registry.get     'x-served-by': 'cache-dfw1835-DFW',
+122 silly registry.get     'x-cache': 'HIT',
+122 silly registry.get     'x-cache-hits': '1',
+122 silly registry.get     'x-timer': 'S1404832044.582329,VS0,VE46',
+122 silly registry.get     vary: 'Accept',
+122 silly registry.get     'content-length': '0',
+122 silly registry.get     'keep-alive': 'timeout=10, max=50',
+122 silly registry.get     connection: 'Keep-Alive' } ]
+123 verbose etag chalk from cache
+124 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+125 silly addNameRange versions [ 'chalk',
+125 silly addNameRange   [ '0.1.0', '0.1.1', '0.2.0', '0.2.1', '0.3.0', '0.4.0', '0.5.0' ] ]
+126 verbose addNamed [ 'chalk', '0.4.0' ]
+127 verbose addNamed [ '0.4.0', '0.4.0' ]
+128 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+129 verbose lock chalk@0.4.0 /Users/jeaniechung/.npm/1efe4790-chalk-0-4-0.lock
+130 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+131 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+132 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+133 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+134 http 304 https://registry.npmjs.org/text-table
+135 silly registry.get cb [ 304,
+135 silly registry.get   { date: 'Tue, 08 Jul 2014 15:07:24 GMT',
+135 silly registry.get     server: 'Apache',
+135 silly registry.get     via: '1.1 varnish',
+135 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 15:07:24 GMT',
+135 silly registry.get     'cache-control': 'max-age=30',
+135 silly registry.get     etag: '"42ZJXV4XLL6BQ85CIAVQ8H8EK"',
+135 silly registry.get     'x-served-by': 'cache-dfw1825-DFW',
+135 silly registry.get     'x-cache': 'HIT',
+135 silly registry.get     'x-cache-hits': '1',
+135 silly registry.get     'x-timer': 'S1404832044.583711,VS0,VE206',
+135 silly registry.get     vary: 'Accept',
+135 silly registry.get     'content-length': '0',
+135 silly registry.get     'keep-alive': 'timeout=10, max=50',
+135 silly registry.get     connection: 'Keep-Alive' } ]
+136 verbose etag text-table from cache
+137 silly addNameRange number 2 { name: 'text-table',
+137 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+137 silly addNameRange   hasData: true }
+138 silly addNameRange versions [ 'text-table',
+138 silly addNameRange   [ '0.0.0', '0.0.1', '0.1.0', '0.1.1', '0.2.0' ] ]
+139 verbose addNamed [ 'text-table', '0.2.0' ]
+140 verbose addNamed [ '0.2.0', '0.2.0' ]
+141 silly lockFile 5601af6e-text-table-0-2-0 text-table@0.2.0
+142 verbose lock text-table@0.2.0 /Users/jeaniechung/.npm/5601af6e-text-table-0-2-0.lock
+143 silly lockFile 5601af6e-text-table-0-2-0 text-table@0.2.0
+144 silly lockFile 5601af6e-text-table-0-2-0 text-table@0.2.0
+145 silly lockFile 4d621c99-text-table-0-2-0 text-table@~0.2.0
+146 silly lockFile 4d621c99-text-table-0-2-0 text-table@~0.2.0
+147 silly resolved [ { name: 'chalk',
+147 silly resolved     version: '0.4.0',
+147 silly resolved     description: 'Terminal string styling done right. Created because the `colors` module does some really horrible things.',
+147 silly resolved     license: 'MIT',
+147 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/chalk' },
+147 silly resolved     author:
+147 silly resolved      { name: 'Sindre Sorhus',
+147 silly resolved        email: 'sindresorhus@gmail.com',
+147 silly resolved        url: 'http://sindresorhus.com' },
+147 silly resolved     engines: { node: '>=0.8.0' },
+147 silly resolved     scripts: { test: 'mocha' },
+147 silly resolved     files: [ 'index.js' ],
+147 silly resolved     keywords:
+147 silly resolved      [ 'color',
+147 silly resolved        'colour',
+147 silly resolved        'colors',
+147 silly resolved        'terminal',
+147 silly resolved        'console',
+147 silly resolved        'cli',
+147 silly resolved        'string',
+147 silly resolved        'ansi',
+147 silly resolved        'styles',
+147 silly resolved        'tty',
+147 silly resolved        'formatting',
+147 silly resolved        'rgb',
+147 silly resolved        '256',
+147 silly resolved        'shell',
+147 silly resolved        'xterm',
+147 silly resolved        'log',
+147 silly resolved        'logging',
+147 silly resolved        'command-line',
+147 silly resolved        'text' ],
+147 silly resolved     dependencies:
+147 silly resolved      { 'has-color': '~0.1.0',
+147 silly resolved        'ansi-styles': '~1.0.0',
+147 silly resolved        'strip-ansi': '~0.1.0' },
+147 silly resolved     devDependencies: { mocha: '~1.x' },
+147 silly resolved     readme: '# <img width="250" src="logo.png" alt="chalk">\n\n> Terminal string styling done right\n\n[![Build Status](https://secure.travis-ci.org/sindresorhus/chalk.png?branch=master)](http://travis-ci.org/sindresorhus/chalk)\n\n[colors.js](https://github.com/Marak/colors.js) is currently the most popular string styling module, but it has serious deficiencies like extending String.prototype which causes all kinds of [problems](https://github.com/yeoman/yo/issues/68). Although there are other ones, they either do too much or not enough.\n\n**Chalk is a clean and focused alternative.**\n\n![screenshot](screenshot.png)\n\n\n## Why\n\n- **Doesn\'t extend String.prototype**\n- Expressive API\n- Clean and focused\n- Auto-detects color support\n- Actively maintained\n- [Used by 150+ modules](https://npmjs.org/browse/depended/chalk)\n\n\n## Install\n\nInstall with [npm](https://npmjs.org/package/chalk): `npm install --save chalk`\n\n\n## Example\n\nChalk comes with an easy to use composable API where you just chain and nest the styles you want.\n\n```js\nvar chalk = require(\'chalk\');\n\n// style a string\nconsole.log(  chalk.blue(\'Hello world!\')  );\n\n// combine styled and normal strings\nconsole.log(  chalk.blue(\'Hello\'), \'World\' + chalk.red(\'!\')  );\n\n// compose multiple styles using the chainable API\nconsole.log(  chalk.blue.bgRed.bold(\'Hello world!\')  );\n\n// nest styles\nconsole.log(  chalk.red(\'Hello\', chalk.underline.bgBlue(\'world\') + \'!\')  );\n\n// pass in multiple arguments\nconsole.log(  chalk.blue(\'Hello\', \'World!\', \'Foo\', \'bar\', \'biz\', \'baz\')  );\n```\n\nYou can easily define your own themes.\n\n```js\nvar chalk = require(\'chalk\');\nvar error = chalk.bold.red;\nconsole.log(error(\'Error!\'));\n```\n\n\n## API\n\n### chalk.`<style>[.<style>...](string, [string...])`\n\nExample: `chalk.red.bold.underline(\'Hello\', \'world\');`\n\nChain [styles](#styles) and call the last one as a method with a string argument. Order doesn\'t matter.\n\nMultiple arguments will be separated by space.\n\n### chalk.enabled\n\nColor support is automatically detected, but you can override it.\n\n### chalk.supportsColor\n\nDetect whether the terminal [supports color](https://github.com/sindresorhus/has-color).\n\nCan be overridden by the user with the flags `--color` and `--no-color`.\n\nUsed internally and handled for you, but exposed for convenience.\n\n### chalk.styles\n\nExposes the styles as [ANSI escape codes](https://github.com/sindresorhus/ansi-styles).\n\nGenerally not useful, but you might need just the `.open` or `.close` escape code if you\'re mixing externally styled strings with yours.\n\n```js\nvar chalk = require(\'chalk\');\n\nconsole.log(chalk.styles.red);\n//=> {open: \'\\x1b[31m\', close: \'\\x1b[39m\'}\n\nconsole.log(chalk.styles.red.open + \'Hello\' + chalk.styles.red.close);\n```\n\n### chalk.stripColor(string)\n\n[Strip color](https://github.com/sindresorhus/strip-ansi) from a string.\n\nCan be useful in combination with `.supportsColor` to strip color on externally styled text when it\'s not supported.\n\nExample:\n\n```js\nvar chalk = require(\'chalk\');\nvar styledString = fromExternal();\n\nif (!chalk.supportsColor) {\n\tchalk.stripColor(styledString);\n}\n```\n\n\n## Styles\n\n### General\n\n- reset\n- bold\n- italic\n- underline\n- inverse\n- strikethrough\n\n### Text colors\n\n- black\n- red\n- green\n- yellow\n- blue\n- magenta\n- cyan\n- white\n- gray\n\n### Background colors\n\n- bgBlack\n- bgRed\n- bgGreen\n- bgYellow\n- bgBlue\n- bgMagenta\n- bgCyan\n- bgWhite\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n\n\n-\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sindresorhus/chalk/trend.png)](https://bitdeli.com/free "Bitdeli Badge")\n',
+147 silly resolved     readmeFilename: 'readme.md',
+147 silly resolved     bugs: { url: 'https://github.com/sindresorhus/chalk/issues' },
+147 silly resolved     homepage: 'https://github.com/sindresorhus/chalk',
+147 silly resolved     _id: 'chalk@0.4.0',
+147 silly resolved     _from: 'chalk@~0.4.0' },
+147 silly resolved   { name: 'text-table',
+147 silly resolved     version: '0.2.0',
+147 silly resolved     description: 'borderless text tables with alignment',
+147 silly resolved     main: 'index.js',
+147 silly resolved     devDependencies: { tap: '~0.4.0', tape: '~1.0.2', 'cli-color': '~0.2.3' },
+147 silly resolved     scripts: { test: 'tap test/*.js' },
+147 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+147 silly resolved     repository: { type: 'git', url: 'git://github.com/substack/text-table.git' },
+147 silly resolved     homepage: 'https://github.com/substack/text-table',
+147 silly resolved     keywords: [ 'text', 'table', 'align', 'ascii', 'rows', 'tabular' ],
+147 silly resolved     author:
+147 silly resolved      { name: 'James Halliday',
+147 silly resolved        email: 'mail@substack.net',
+147 silly resolved        url: 'http://substack.net' },
+147 silly resolved     license: 'MIT',
+147 silly resolved     readme: '# text-table\n\ngenerate borderless text table strings suitable for printing to stdout\n\n[![build status](https://secure.travis-ci.org/substack/text-table.png)](http://travis-ci.org/substack/text-table)\n\n[![browser support](https://ci.testling.com/substack/text-table.png)](http://ci.testling.com/substack/text-table)\n\n# example\n\n## default align\n\n``` js\nvar table = require(\'text-table\');\nvar t = table([\n    [ \'master\', \'0123456789abcdef\' ],\n    [ \'staging\', \'fedcba9876543210\' ]\n]);\nconsole.log(t);\n```\n\n```\nmaster   0123456789abcdef\nstaging  fedcba9876543210\n```\n\n## left-right align\n\n``` js\nvar table = require(\'text-table\');\nvar t = table([\n    [ \'beep\', \'1024\' ],\n    [ \'boop\', \'33450\' ],\n    [ \'foo\', \'1006\' ],\n    [ \'bar\', \'45\' ]\n], { align: [ \'l\', \'r\' ] });\nconsole.log(t);\n```\n\n```\nbeep   1024\nboop  33450\nfoo    1006\nbar      45\n```\n\n## dotted align\n\n``` js\nvar table = require(\'text-table\');\nvar t = table([\n    [ \'beep\', \'1024\' ],\n    [ \'boop\', \'334.212\' ],\n    [ \'foo\', \'1006\' ],\n    [ \'bar\', \'45.6\' ],\n    [ \'baz\', \'123.\' ]\n], { align: [ \'l\', \'.\' ] });\nconsole.log(t);\n```\n\n```\nbeep  1024\nboop   334.212\nfoo   1006\nbar     45.6\nbaz    123.\n```\n\n## centered\n\n``` js\nvar table = require(\'text-table\');\nvar t = table([\n    [ \'beep\', \'1024\', \'xyz\' ],\n    [ \'boop\', \'3388450\', \'tuv\' ],\n    [ \'foo\', \'10106\', \'qrstuv\' ],\n    [ \'bar\', \'45\', \'lmno\' ]\n], { align: [ \'l\', \'c\', \'l\' ] });\nconsole.log(t);\n```\n\n```\nbeep    1024   xyz\nboop  3388450  tuv\nfoo    10106   qrstuv\nbar      45    lmno\n```\n\n# methods\n\n``` js\nvar table = require(\'text-table\')\n```\n\n## var s = table(rows, opts={})\n\nReturn a formatted table string `s` from an array of `rows` and some options\n`opts`.\n\n`rows` should be an array of arrays containing strings, numbers, or other\nprintable values.\n\noptions can be:\n\n* `opts.hsep` - separator to use between columns, default `\'  \'`\n* `opts.align` - array of alignment types for each column, default `[\'l\',\'l\',...]`\n* `opts.stringLength` - callback function to use when calculating the string length\n\nalignment types are:\n\n* `\'l\'` - left\n* `\'r\'` - right\n* `\'c\'` - center\n* `\'.\'` - decimal\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install text-table\n```\n\n# Use with ANSI-colors\n\nSince the string length of ANSI color schemes does not equal the length\nJavaScript sees internally it is necessary to pass the a custom string length\ncalculator during the main function call.\n\nSee the `test/ansi-colors.js` file for an example.\n\n# license\n\nMIT\n',
+147 silly resolved     readmeFilename: 'readme.markdown',
+147 silly resolved     bugs: { url: 'https://github.com/substack/text-table/issues' },
+147 silly resolved     _id: 'text-table@0.2.0',
+147 silly resolved     _from: 'text-table@~0.2.0' } ]
+148 info install chalk@0.4.0 into /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish
+149 info install text-table@0.2.0 into /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish
+150 info installOne chalk@0.4.0
+151 info installOne text-table@0.2.0
+152 info /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk unbuild
+153 info /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/text-table unbuild
+154 verbose tar unpack /Users/jeaniechung/.npm/chalk/0.4.0/package.tgz
+155 silly lockFile 530640c2-shint-stylish-node-modules-chalk tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk
+156 verbose lock tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk /Users/jeaniechung/.npm/530640c2-shint-stylish-node-modules-chalk.lock
+157 silly lockFile 3ce17536-hung-npm-chalk-0-4-0-package-tgz tar:///Users/jeaniechung/.npm/chalk/0.4.0/package.tgz
+158 verbose lock tar:///Users/jeaniechung/.npm/chalk/0.4.0/package.tgz /Users/jeaniechung/.npm/3ce17536-hung-npm-chalk-0-4-0-package-tgz.lock
+159 verbose tar unpack /Users/jeaniechung/.npm/text-table/0.2.0/package.tgz
+160 silly lockFile a53f2673--stylish-node-modules-text-table tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/text-table
+161 verbose lock tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/text-table /Users/jeaniechung/.npm/a53f2673--stylish-node-modules-text-table.lock
+162 silly lockFile 8b10919a-npm-text-table-0-2-0-package-tgz tar:///Users/jeaniechung/.npm/text-table/0.2.0/package.tgz
+163 verbose lock tar:///Users/jeaniechung/.npm/text-table/0.2.0/package.tgz /Users/jeaniechung/.npm/8b10919a-npm-text-table-0-2-0-package-tgz.lock
+164 silly gunzTarPerm modes [ '755', '644' ]
+165 silly gunzTarPerm modes [ '755', '644' ]
+166 silly gunzTarPerm extractEntry package.json
+167 silly gunzTarPerm extractEntry package.json
+168 silly gunzTarPerm extractEntry index.js
+169 silly gunzTarPerm extractEntry readme.md
+170 silly gunzTarPerm extractEntry LICENSE
+171 silly gunzTarPerm extractEntry index.js
+172 silly gunzTarPerm extractEntry .travis.yml
+173 silly gunzTarPerm extractEntry example/align.js
+174 silly gunzTarPerm extractEntry example/center.js
+175 silly gunzTarPerm extractEntry example/dotalign.js
+176 silly gunzTarPerm extractEntry example/doubledot.js
+177 silly gunzTarPerm extractEntry example/table.js
+178 silly lockFile 530640c2-shint-stylish-node-modules-chalk tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk
+179 silly lockFile 530640c2-shint-stylish-node-modules-chalk tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk
+180 silly lockFile 3ce17536-hung-npm-chalk-0-4-0-package-tgz tar:///Users/jeaniechung/.npm/chalk/0.4.0/package.tgz
+181 silly lockFile 3ce17536-hung-npm-chalk-0-4-0-package-tgz tar:///Users/jeaniechung/.npm/chalk/0.4.0/package.tgz
+182 silly gunzTarPerm extractEntry readme.markdown
+183 silly gunzTarPerm extractEntry test/align.js
+184 silly gunzTarPerm extractEntry test/ansi-colors.js
+185 silly gunzTarPerm extractEntry test/center.js
+186 silly gunzTarPerm extractEntry test/dotalign.js
+187 silly gunzTarPerm extractEntry test/doubledot.js
+188 silly gunzTarPerm extractEntry test/table.js
+189 info preinstall chalk@0.4.0
+190 verbose readDependencies using package.json deps
+191 verbose readDependencies using package.json deps
+192 verbose cache add [ 'has-color@~0.1.0', null ]
+193 verbose cache add name=undefined spec="has-color@~0.1.0" args=["has-color@~0.1.0",null]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: 'has-color@~0.1.0',
+194 verbose parsed url   path: 'has-color@~0.1.0',
+194 verbose parsed url   href: 'has-color@~0.1.0' }
+195 verbose cache add name="has-color" spec="~0.1.0" args=["has-color","~0.1.0"]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: '~0.1.0',
+196 verbose parsed url   path: '~0.1.0',
+196 verbose parsed url   href: '~0.1.0' }
+197 verbose addNamed [ 'has-color', '~0.1.0' ]
+198 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+199 silly lockFile c89da621-has-color-0-1-0 has-color@~0.1.0
+200 verbose lock has-color@~0.1.0 /Users/jeaniechung/.npm/c89da621-has-color-0-1-0.lock
+201 verbose cache add [ 'ansi-styles@~1.0.0', null ]
+202 verbose cache add name=undefined spec="ansi-styles@~1.0.0" args=["ansi-styles@~1.0.0",null]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: 'ansi-styles@~1.0.0',
+203 verbose parsed url   path: 'ansi-styles@~1.0.0',
+203 verbose parsed url   href: 'ansi-styles@~1.0.0' }
+204 verbose cache add name="ansi-styles" spec="~1.0.0" args=["ansi-styles","~1.0.0"]
+205 verbose parsed url { protocol: null,
+205 verbose parsed url   slashes: null,
+205 verbose parsed url   auth: null,
+205 verbose parsed url   host: null,
+205 verbose parsed url   port: null,
+205 verbose parsed url   hostname: null,
+205 verbose parsed url   hash: null,
+205 verbose parsed url   search: null,
+205 verbose parsed url   query: null,
+205 verbose parsed url   pathname: '~1.0.0',
+205 verbose parsed url   path: '~1.0.0',
+205 verbose parsed url   href: '~1.0.0' }
+206 verbose addNamed [ 'ansi-styles', '~1.0.0' ]
+207 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+208 silly lockFile 82a4f1f6-ansi-styles-1-0-0 ansi-styles@~1.0.0
+209 verbose lock ansi-styles@~1.0.0 /Users/jeaniechung/.npm/82a4f1f6-ansi-styles-1-0-0.lock
+210 verbose cache add [ 'strip-ansi@~0.1.0', null ]
+211 verbose cache add name=undefined spec="strip-ansi@~0.1.0" args=["strip-ansi@~0.1.0",null]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: 'strip-ansi@~0.1.0',
+212 verbose parsed url   path: 'strip-ansi@~0.1.0',
+212 verbose parsed url   href: 'strip-ansi@~0.1.0' }
+213 verbose cache add name="strip-ansi" spec="~0.1.0" args=["strip-ansi","~0.1.0"]
+214 verbose parsed url { protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: '~0.1.0',
+214 verbose parsed url   path: '~0.1.0',
+214 verbose parsed url   href: '~0.1.0' }
+215 verbose addNamed [ 'strip-ansi', '~0.1.0' ]
+216 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+217 silly lockFile 0cdb0eaa-strip-ansi-0-1-0 strip-ansi@~0.1.0
+218 verbose lock strip-ansi@~0.1.0 /Users/jeaniechung/.npm/0cdb0eaa-strip-ansi-0-1-0.lock
+219 silly addNameRange { name: 'has-color',
+219 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+219 silly addNameRange   hasData: false }
+220 silly addNameRange { name: 'ansi-styles',
+220 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+220 silly addNameRange   hasData: false }
+221 silly addNameRange { name: 'strip-ansi',
+221 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+221 silly addNameRange   hasData: false }
+222 verbose url raw has-color
+223 verbose url resolving [ 'https://registry.npmjs.org/', './has-color' ]
+224 verbose url resolved https://registry.npmjs.org/has-color
+225 info trying registry request attempt 1 at 10:07:24
+226 verbose etag "9ET1M9DE6H0H6XWCWO5IDMRTO"
+227 http GET https://registry.npmjs.org/has-color
+228 verbose url raw ansi-styles
+229 verbose url resolving [ 'https://registry.npmjs.org/', './ansi-styles' ]
+230 verbose url resolved https://registry.npmjs.org/ansi-styles
+231 info trying registry request attempt 1 at 10:07:24
+232 verbose etag "UK3985B3MGET9EN8RXZGQQWF"
+233 http GET https://registry.npmjs.org/ansi-styles
+234 verbose url raw strip-ansi
+235 verbose url resolving [ 'https://registry.npmjs.org/', './strip-ansi' ]
+236 verbose url resolved https://registry.npmjs.org/strip-ansi
+237 info trying registry request attempt 1 at 10:07:24
+238 verbose etag "26US9YWYVC8NP2J5TMRRDAHD5"
+239 http GET https://registry.npmjs.org/strip-ansi
+240 silly lockFile a53f2673--stylish-node-modules-text-table tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/text-table
+241 silly lockFile a53f2673--stylish-node-modules-text-table tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/text-table
+242 silly lockFile 8b10919a-npm-text-table-0-2-0-package-tgz tar:///Users/jeaniechung/.npm/text-table/0.2.0/package.tgz
+243 silly lockFile 8b10919a-npm-text-table-0-2-0-package-tgz tar:///Users/jeaniechung/.npm/text-table/0.2.0/package.tgz
+244 info preinstall text-table@0.2.0
+245 verbose readDependencies using package.json deps
+246 verbose readDependencies using package.json deps
+247 silly resolved []
+248 verbose about to build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/text-table
+249 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/text-table
+250 verbose linkStuff [ false,
+250 verbose linkStuff   false,
+250 verbose linkStuff   false,
+250 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules' ]
+251 info linkStuff text-table@0.2.0
+252 verbose linkBins text-table@0.2.0
+253 verbose linkMans text-table@0.2.0
+254 verbose rebuildBundles text-table@0.2.0
+255 info install text-table@0.2.0
+256 info postinstall text-table@0.2.0
+257 http 304 https://registry.npmjs.org/strip-ansi
+258 silly registry.get cb [ 304,
+258 silly registry.get   { date: 'Tue, 08 Jul 2014 15:07:24 GMT',
+258 silly registry.get     server: 'Apache',
+258 silly registry.get     via: '1.1 varnish',
+258 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 15:07:24 GMT',
+258 silly registry.get     'cache-control': 'max-age=30',
+258 silly registry.get     etag: '"26US9YWYVC8NP2J5TMRRDAHD5"',
+258 silly registry.get     'x-served-by': 'cache-dfw1823-DFW',
+258 silly registry.get     'x-cache': 'HIT',
+258 silly registry.get     'x-cache-hits': '1',
+258 silly registry.get     'x-timer': 'S1404832044.976783,VS0,VE0',
+258 silly registry.get     vary: 'Accept',
+258 silly registry.get     'content-length': '0',
+258 silly registry.get     'keep-alive': 'timeout=10, max=50',
+258 silly registry.get     connection: 'Keep-Alive' } ]
+259 verbose etag strip-ansi from cache
+260 http 304 https://registry.npmjs.org/ansi-styles
+261 silly registry.get cb [ 304,
+261 silly registry.get   { date: 'Tue, 08 Jul 2014 15:07:24 GMT',
+261 silly registry.get     server: 'Apache',
+261 silly registry.get     via: '1.1 varnish',
+261 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 15:07:24 GMT',
+261 silly registry.get     'cache-control': 'max-age=30',
+261 silly registry.get     etag: '"UK3985B3MGET9EN8RXZGQQWF"',
+261 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+261 silly registry.get     'x-cache': 'HIT',
+261 silly registry.get     'x-cache-hits': '1',
+261 silly registry.get     'x-timer': 'S1404832044.981726,VS0,VE0',
+261 silly registry.get     vary: 'Accept',
+261 silly registry.get     'content-length': '0',
+261 silly registry.get     'keep-alive': 'timeout=10, max=50',
+261 silly registry.get     connection: 'Keep-Alive' } ]
+262 verbose etag ansi-styles from cache
+263 http 304 https://registry.npmjs.org/has-color
+264 silly registry.get cb [ 304,
+264 silly registry.get   { date: 'Tue, 08 Jul 2014 15:07:24 GMT',
+264 silly registry.get     server: 'Apache',
+264 silly registry.get     via: '1.1 varnish',
+264 silly registry.get     'last-modified': 'Tue, 08 Jul 2014 15:07:24 GMT',
+264 silly registry.get     'cache-control': 'max-age=30',
+264 silly registry.get     etag: '"9ET1M9DE6H0H6XWCWO5IDMRTO"',
+264 silly registry.get     'x-served-by': 'cache-dfw1826-DFW',
+264 silly registry.get     'x-cache': 'HIT',
+264 silly registry.get     'x-cache-hits': '1',
+264 silly registry.get     'x-timer': 'S1404832044.981828,VS0,VE0',
+264 silly registry.get     vary: 'Accept',
+264 silly registry.get     'content-length': '0',
+264 silly registry.get     'keep-alive': 'timeout=10, max=50',
+264 silly registry.get     connection: 'Keep-Alive' } ]
+265 verbose etag has-color from cache
+266 silly addNameRange number 2 { name: 'ansi-styles',
+266 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+266 silly addNameRange   hasData: true }
+267 silly addNameRange versions [ 'ansi-styles',
+267 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.2.0', '1.0.0', '1.1.0' ] ]
+268 verbose addNamed [ 'ansi-styles', '1.0.0' ]
+269 verbose addNamed [ '1.0.0', '1.0.0' ]
+270 silly lockFile 92057bb9-ansi-styles-1-0-0 ansi-styles@1.0.0
+271 verbose lock ansi-styles@1.0.0 /Users/jeaniechung/.npm/92057bb9-ansi-styles-1-0-0.lock
+272 silly addNameRange number 2 { name: 'strip-ansi',
+272 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+272 silly addNameRange   hasData: true }
+273 silly addNameRange versions [ 'strip-ansi',
+273 silly addNameRange   [ '0.1.0', '0.1.1', '0.2.0', '0.2.1', '0.2.2', '0.3.0' ] ]
+274 verbose addNamed [ 'strip-ansi', '0.1.1' ]
+275 verbose addNamed [ '0.1.1', '0.1.1' ]
+276 silly lockFile ed6fc536-strip-ansi-0-1-1 strip-ansi@0.1.1
+277 verbose lock strip-ansi@0.1.1 /Users/jeaniechung/.npm/ed6fc536-strip-ansi-0-1-1.lock
+278 silly addNameRange number 2 { name: 'has-color', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+279 silly addNameRange versions [ 'has-color',
+279 silly addNameRange   [ '0.1.0',
+279 silly addNameRange     '0.1.1',
+279 silly addNameRange     '0.1.2',
+279 silly addNameRange     '0.1.3',
+279 silly addNameRange     '0.1.4',
+279 silly addNameRange     '0.1.5',
+279 silly addNameRange     '0.1.6',
+279 silly addNameRange     '0.1.7' ] ]
+280 verbose addNamed [ 'has-color', '0.1.7' ]
+281 verbose addNamed [ '0.1.7', '0.1.7' ]
+282 silly lockFile 397aab71-has-color-0-1-7 has-color@0.1.7
+283 verbose lock has-color@0.1.7 /Users/jeaniechung/.npm/397aab71-has-color-0-1-7.lock
+284 silly lockFile 92057bb9-ansi-styles-1-0-0 ansi-styles@1.0.0
+285 silly lockFile 92057bb9-ansi-styles-1-0-0 ansi-styles@1.0.0
+286 silly lockFile 82a4f1f6-ansi-styles-1-0-0 ansi-styles@~1.0.0
+287 silly lockFile 82a4f1f6-ansi-styles-1-0-0 ansi-styles@~1.0.0
+288 silly lockFile ed6fc536-strip-ansi-0-1-1 strip-ansi@0.1.1
+289 silly lockFile ed6fc536-strip-ansi-0-1-1 strip-ansi@0.1.1
+290 silly lockFile 0cdb0eaa-strip-ansi-0-1-0 strip-ansi@~0.1.0
+291 silly lockFile 0cdb0eaa-strip-ansi-0-1-0 strip-ansi@~0.1.0
+292 silly lockFile 397aab71-has-color-0-1-7 has-color@0.1.7
+293 silly lockFile 397aab71-has-color-0-1-7 has-color@0.1.7
+294 silly lockFile c89da621-has-color-0-1-0 has-color@~0.1.0
+295 silly lockFile c89da621-has-color-0-1-0 has-color@~0.1.0
+296 silly resolved [ { name: 'ansi-styles',
+296 silly resolved     version: '1.0.0',
+296 silly resolved     description: 'ANSI escape codes for colorizing strings in the terminal',
+296 silly resolved     keywords:
+296 silly resolved      [ 'ansi',
+296 silly resolved        'styles',
+296 silly resolved        'color',
+296 silly resolved        'colour',
+296 silly resolved        'colors',
+296 silly resolved        'terminal',
+296 silly resolved        'console',
+296 silly resolved        'cli',
+296 silly resolved        'string',
+296 silly resolved        'tty',
+296 silly resolved        'escape',
+296 silly resolved        'formatting',
+296 silly resolved        'rgb',
+296 silly resolved        '256',
+296 silly resolved        'shell',
+296 silly resolved        'xterm',
+296 silly resolved        'log',
+296 silly resolved        'logging',
+296 silly resolved        'command-line',
+296 silly resolved        'text' ],
+296 silly resolved     homepage: 'https://github.com/sindresorhus/ansi-styles',
+296 silly resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-styles/issues' },
+296 silly resolved     license: 'MIT',
+296 silly resolved     author:
+296 silly resolved      { name: 'Sindre Sorhus',
+296 silly resolved        email: 'sindresorhus@gmail.com',
+296 silly resolved        url: 'http://sindresorhus.com' },
+296 silly resolved     files: [ 'ansi-styles.js' ],
+296 silly resolved     main: 'ansi-styles',
+296 silly resolved     repository:
+296 silly resolved      { type: 'git',
+296 silly resolved        url: 'git://github.com/sindresorhus/ansi-styles.git' },
+296 silly resolved     scripts: { test: 'mocha' },
+296 silly resolved     devDependencies: { mocha: '~1.12.0' },
+296 silly resolved     engines: { node: '>=0.8.0' },
+296 silly resolved     readme: '# ansi-styles [![Build Status](https://secure.travis-ci.org/sindresorhus/ansi-styles.png?branch=master)](http://travis-ci.org/sindresorhus/ansi-styles)\n\n> [ANSI escape codes](http://en.wikipedia.org/wiki/ANSI_escape_code#Colors_and_Styles) for colorizing strings in the terminal.\n\nYou probably want the higher-level [chalk](https://github.com/sindresorhus/chalk) module for styling your strings.\n\n![screenshot](screenshot.png)\n\n\n## Install\n\nInstall with [npm](https://npmjs.org/package/ansi-styles): `npm install --save ansi-styles`\n\n\n## Example\n\n```js\nvar ansi = require(\'ansi-styles\');\n\nconsole.log(ansi.green.open + \'Hello world!\' + ansi.green.close);\n```\n\n## API\n\nEach style has an `open` and `close` property.\n\n\n## Styles\n\n### General\n\n- reset\n- bold\n- italic\n- underline\n- inverse\n- strikethrough\n\n### Text colors\n\n- black\n- red\n- green\n- yellow\n- blue\n- magenta\n- cyan\n- white\n- gray\n\n### Background colors\n\n- bgBlack\n- bgRed\n- bgGreen\n- bgYellow\n- bgBlue\n- bgMagenta\n- bgCyan\n- bgWhite\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
+296 silly resolved     readmeFilename: 'readme.md',
+296 silly resolved     _id: 'ansi-styles@1.0.0',
+296 silly resolved     _from: 'ansi-styles@~1.0.0' },
+296 silly resolved   { name: 'strip-ansi',
+296 silly resolved     version: '0.1.1',
+296 silly resolved     description: 'Strip ANSI escape codes (used for colorizing strings in the terminal)',
+296 silly resolved     license: 'MIT',
+296 silly resolved     bin: { 'strip-ansi': 'cli.js' },
+296 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/strip-ansi' },
+296 silly resolved     author:
+296 silly resolved      { name: 'Sindre Sorhus',
+296 silly resolved        email: 'sindresorhus@gmail.com',
+296 silly resolved        url: 'http://sindresorhus.com' },
+296 silly resolved     engines: { node: '>=0.8.0' },
+296 silly resolved     scripts: { test: 'mocha' },
+296 silly resolved     files: [ 'index.js', 'cli.js' ],
+296 silly resolved     keywords:
+296 silly resolved      [ 'strip',
+296 silly resolved        'trim',
+296 silly resolved        'remove',
+296 silly resolved        'ansi',
+296 silly resolved        'styles',
+296 silly resolved        'color',
+296 silly resolved        'colour',
+296 silly resolved        'colors',
+296 silly resolved        'terminal',
+296 silly resolved        'console',
+296 silly resolved        'cli',
+296 silly resolved        'string',
+296 silly resolved        'tty',
+296 silly resolved        'escape',
+296 silly resolved        'formatting',
+296 silly resolved        'rgb',
+296 silly resolved        '256',
+296 silly resolved        'shell',
+296 silly resolved        'xterm',
+296 silly resolved        'log',
+296 silly resolved        'logging',
+296 silly resolved        'command-line',
+296 silly resolved        'text' ],
+296 silly resolved     devDependencies: { mocha: '~1.x' },
+296 silly resolved     readme: '# strip-ansi [![Build Status](https://secure.travis-ci.org/sindresorhus/strip-ansi.png?branch=master)](http://travis-ci.org/sindresorhus/strip-ansi)\n\n> Strip [ANSI escape codes](http://en.wikipedia.org/wiki/ANSI_escape_code#Colors_and_Styles) (used for colorizing strings in the terminal)\n\nUsed in the terminal color module [chalk](https://github.com/sindresorhus/chalk).\n\n\n## Install\n\nInstall locally with [npm](https://npmjs.org/package/strip-ansi):\n\n```\nnpm install --save strip-ansi\n```\n\nOr globally if you want to use it as a CLI app:\n\n```\nnpm install --global strip-ansi\n```\n\nYou can then use it in your Terminal like:\n\n```\nstrip-ansi file-with-color-codes\n```\n\nOr pipe something to it:\n\n```\nls | strip-ansi\n```\n\n\n## Example\n\n```js\nvar stripAnsi = require(\'strip-ansi\');\nstripAnsi(\'\\x1b[4mcake\\x1b[0m\');\n//=> cake\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
+296 silly resolved     readmeFilename: 'readme.md',
+296 silly resolved     bugs: { url: 'https://github.com/sindresorhus/strip-ansi/issues' },
+296 silly resolved     homepage: 'https://github.com/sindresorhus/strip-ansi',
+296 silly resolved     _id: 'strip-ansi@0.1.1',
+296 silly resolved     _from: 'strip-ansi@~0.1.0' },
+296 silly resolved   { name: 'has-color',
+296 silly resolved     version: '0.1.7',
+296 silly resolved     description: 'Detect whether a terminal supports color',
+296 silly resolved     license: 'MIT',
+296 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/has-color' },
+296 silly resolved     author:
+296 silly resolved      { name: 'Sindre Sorhus',
+296 silly resolved        email: 'sindresorhus@gmail.com',
+296 silly resolved        url: 'http://sindresorhus.com' },
+296 silly resolved     engines: { node: '>=0.10.0' },
+296 silly resolved     scripts: { test: 'mocha' },
+296 silly resolved     files: [ 'index.js' ],
+296 silly resolved     keywords:
+296 silly resolved      [ 'color',
+296 silly resolved        'colour',
+296 silly resolved        'colors',
+296 silly resolved        'terminal',
+296 silly resolved        'console',
+296 silly resolved        'cli',
+296 silly resolved        'ansi',
+296 silly resolved        'styles',
+296 silly resolved        'tty',
+296 silly resolved        'rgb',
+296 silly resolved        '256',
+296 silly resolved        'shell',
+296 silly resolved        'xterm',
+296 silly resolved        'command-line',
+296 silly resolved        'support',
+296 silly resolved        'capability',
+296 silly resolved        'detect' ],
+296 silly resolved     devDependencies: { mocha: '*' },
+296 silly resolved     readme: '# has-color [![Build Status](https://travis-ci.org/sindresorhus/has-color.svg?branch=master)](https://travis-ci.org/sindresorhus/has-color)\n\n> Detect whether a terminal supports color.\n\nUsed in the terminal color module [chalk](https://github.com/sindresorhus/chalk).\n\n\n## Install\n\n```bash\n$ npm install --save has-color\n```\n\n\n## Usage\n\n```js\nvar hasColor = require(\'has-color\');\n\nif (hasColor) {\n\tconsole.log(\'Terminal supports color.\');\n}\n```\n\nIt obeys the `--color` and `--no-color` CLI flags.\n\n\n## License\n\n[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)\n',
+296 silly resolved     readmeFilename: 'readme.md',
+296 silly resolved     bugs: { url: 'https://github.com/sindresorhus/has-color/issues' },
+296 silly resolved     homepage: 'https://github.com/sindresorhus/has-color',
+296 silly resolved     _id: 'has-color@0.1.7',
+296 silly resolved     _from: 'has-color@~0.1.0' } ]
+297 info install ansi-styles@1.0.0 into /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk
+298 info install strip-ansi@0.1.1 into /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk
+299 info install has-color@0.1.7 into /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk
+300 info installOne ansi-styles@1.0.0
+301 info installOne strip-ansi@0.1.1
+302 info installOne has-color@0.1.7
+303 info /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/ansi-styles unbuild
+304 info /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/strip-ansi unbuild
+305 info /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/has-color unbuild
+306 verbose tar unpack /Users/jeaniechung/.npm/ansi-styles/1.0.0/package.tgz
+307 silly lockFile 9b11109a-s-chalk-node-modules-ansi-styles tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/ansi-styles
+308 verbose lock tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/ansi-styles /Users/jeaniechung/.npm/9b11109a-s-chalk-node-modules-ansi-styles.lock
+309 silly lockFile d36873f6-pm-ansi-styles-1-0-0-package-tgz tar:///Users/jeaniechung/.npm/ansi-styles/1.0.0/package.tgz
+310 verbose lock tar:///Users/jeaniechung/.npm/ansi-styles/1.0.0/package.tgz /Users/jeaniechung/.npm/d36873f6-pm-ansi-styles-1-0-0-package-tgz.lock
+311 verbose tar unpack /Users/jeaniechung/.npm/strip-ansi/0.1.1/package.tgz
+312 silly lockFile 585c964c-es-chalk-node-modules-strip-ansi tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/strip-ansi
+313 verbose lock tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/strip-ansi /Users/jeaniechung/.npm/585c964c-es-chalk-node-modules-strip-ansi.lock
+314 silly lockFile 12570ffb-npm-strip-ansi-0-1-1-package-tgz tar:///Users/jeaniechung/.npm/strip-ansi/0.1.1/package.tgz
+315 verbose lock tar:///Users/jeaniechung/.npm/strip-ansi/0.1.1/package.tgz /Users/jeaniechung/.npm/12570ffb-npm-strip-ansi-0-1-1-package-tgz.lock
+316 verbose tar unpack /Users/jeaniechung/.npm/has-color/0.1.7/package.tgz
+317 silly lockFile 3111bb67-les-chalk-node-modules-has-color tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/has-color
+318 verbose lock tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/has-color /Users/jeaniechung/.npm/3111bb67-les-chalk-node-modules-has-color.lock
+319 silly lockFile 245cb924--npm-has-color-0-1-7-package-tgz tar:///Users/jeaniechung/.npm/has-color/0.1.7/package.tgz
+320 verbose lock tar:///Users/jeaniechung/.npm/has-color/0.1.7/package.tgz /Users/jeaniechung/.npm/245cb924--npm-has-color-0-1-7-package-tgz.lock
+321 silly gunzTarPerm modes [ '755', '644' ]
+322 silly gunzTarPerm modes [ '755', '644' ]
+323 silly gunzTarPerm modes [ '755', '644' ]
+324 silly gunzTarPerm extractEntry package.json
+325 silly gunzTarPerm extractEntry package.json
+326 silly gunzTarPerm extractEntry package.json
+327 silly gunzTarPerm extractEntry ansi-styles.js
+328 silly gunzTarPerm extractEntry readme.md
+329 silly gunzTarPerm extractEntry cli.js
+330 silly gunzTarPerm extractEntry index.js
+331 silly gunzTarPerm extractEntry index.js
+332 silly gunzTarPerm extractEntry readme.md
+333 silly gunzTarPerm extractEntry readme.md
+334 silly lockFile 3111bb67-les-chalk-node-modules-has-color tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/has-color
+335 silly lockFile 3111bb67-les-chalk-node-modules-has-color tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/has-color
+336 silly lockFile 9b11109a-s-chalk-node-modules-ansi-styles tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/ansi-styles
+337 silly lockFile 9b11109a-s-chalk-node-modules-ansi-styles tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/ansi-styles
+338 silly lockFile 245cb924--npm-has-color-0-1-7-package-tgz tar:///Users/jeaniechung/.npm/has-color/0.1.7/package.tgz
+339 silly lockFile 245cb924--npm-has-color-0-1-7-package-tgz tar:///Users/jeaniechung/.npm/has-color/0.1.7/package.tgz
+340 silly lockFile d36873f6-pm-ansi-styles-1-0-0-package-tgz tar:///Users/jeaniechung/.npm/ansi-styles/1.0.0/package.tgz
+341 silly lockFile d36873f6-pm-ansi-styles-1-0-0-package-tgz tar:///Users/jeaniechung/.npm/ansi-styles/1.0.0/package.tgz
+342 info preinstall ansi-styles@1.0.0
+343 info preinstall has-color@0.1.7
+344 silly lockFile 585c964c-es-chalk-node-modules-strip-ansi tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/strip-ansi
+345 silly lockFile 585c964c-es-chalk-node-modules-strip-ansi tar:///Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/strip-ansi
+346 silly lockFile 12570ffb-npm-strip-ansi-0-1-1-package-tgz tar:///Users/jeaniechung/.npm/strip-ansi/0.1.1/package.tgz
+347 silly lockFile 12570ffb-npm-strip-ansi-0-1-1-package-tgz tar:///Users/jeaniechung/.npm/strip-ansi/0.1.1/package.tgz
+348 verbose readDependencies using package.json deps
+349 verbose readDependencies using package.json deps
+350 verbose readDependencies using package.json deps
+351 silly resolved []
+352 verbose about to build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/ansi-styles
+353 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/ansi-styles
+354 verbose linkStuff [ false,
+354 verbose linkStuff   false,
+354 verbose linkStuff   false,
+354 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules' ]
+355 info linkStuff ansi-styles@1.0.0
+356 verbose linkBins ansi-styles@1.0.0
+357 verbose linkMans ansi-styles@1.0.0
+358 verbose rebuildBundles ansi-styles@1.0.0
+359 verbose readDependencies using package.json deps
+360 silly resolved []
+361 verbose about to build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/has-color
+362 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/has-color
+363 verbose linkStuff [ false,
+363 verbose linkStuff   false,
+363 verbose linkStuff   false,
+363 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules' ]
+364 info linkStuff has-color@0.1.7
+365 verbose linkBins has-color@0.1.7
+366 verbose linkMans has-color@0.1.7
+367 verbose rebuildBundles has-color@0.1.7
+368 info install ansi-styles@1.0.0
+369 info install has-color@0.1.7
+370 info preinstall strip-ansi@0.1.1
+371 info postinstall ansi-styles@1.0.0
+372 info postinstall has-color@0.1.7
+373 verbose readDependencies using package.json deps
+374 verbose readDependencies using package.json deps
+375 silly resolved []
+376 verbose about to build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/strip-ansi
+377 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/strip-ansi
+378 verbose linkStuff [ false,
+378 verbose linkStuff   false,
+378 verbose linkStuff   false,
+378 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules' ]
+379 info linkStuff strip-ansi@0.1.1
+380 verbose linkBins strip-ansi@0.1.1
+381 verbose link bins [ { 'strip-ansi': 'cli.js' },
+381 verbose link bins   '/Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk/node_modules/.bin',
+381 verbose link bins   false ]
+382 verbose linkMans strip-ansi@0.1.1
+383 verbose rebuildBundles strip-ansi@0.1.1
+384 info install strip-ansi@0.1.1
+385 info postinstall strip-ansi@0.1.1
+386 verbose about to build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk
+387 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules/chalk
+388 verbose linkStuff [ false,
+388 verbose linkStuff   false,
+388 verbose linkStuff   false,
+388 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish/node_modules' ]
+389 info linkStuff chalk@0.4.0
+390 verbose linkBins chalk@0.4.0
+391 verbose linkMans chalk@0.4.0
+392 verbose rebuildBundles chalk@0.4.0
+393 verbose rebuildBundles [ '.bin', 'ansi-styles', 'has-color', 'strip-ansi' ]
+394 info install chalk@0.4.0
+395 info postinstall chalk@0.4.0
+396 verbose about to build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish
+397 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/jshint-stylish
+398 verbose linkStuff [ false,
+398 verbose linkStuff   false,
+398 verbose linkStuff   false,
+398 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+399 info linkStuff jshint-stylish@0.1.5
+400 verbose linkBins jshint-stylish@0.1.5
+401 verbose linkMans jshint-stylish@0.1.5
+402 verbose rebuildBundles jshint-stylish@0.1.5
+403 verbose rebuildBundles [ 'chalk', 'text-table' ]
+404 info install jshint-stylish@0.1.5
+405 info postinstall jshint-stylish@0.1.5
+406 info build /Users/jeaniechung/projects/jeaniedotcom
+407 verbose linkStuff [ false, false, false, '/Users/jeaniechung/projects' ]
+408 info linkStuff jeaniedotcom@0.0.1
+409 verbose linkBins jeaniedotcom@0.0.1
+410 verbose linkMans jeaniedotcom@0.0.1
+411 verbose rebuildBundles jeaniedotcom@0.0.1
+412 verbose rebuildBundles [ '.bin',
+412 verbose rebuildBundles   'bower',
+412 verbose rebuildBundles   'grunt',
+412 verbose rebuildBundles   'grunt-autoprefixer',
+412 verbose rebuildBundles   'grunt-bower-install',
+412 verbose rebuildBundles   'grunt-cli',
+412 verbose rebuildBundles   'grunt-concurrent',
+412 verbose rebuildBundles   'grunt-contrib-clean',
+412 verbose rebuildBundles   'grunt-contrib-coffee',
+412 verbose rebuildBundles   'grunt-contrib-compass',
+412 verbose rebuildBundles   'grunt-contrib-concat',
+412 verbose rebuildBundles   'grunt-contrib-connect',
+412 verbose rebuildBundles   'grunt-contrib-copy',
+412 verbose rebuildBundles   'grunt-contrib-cssmin',
+412 verbose rebuildBundles   'grunt-contrib-htmlmin',
+412 verbose rebuildBundles   'grunt-contrib-imagemin',
+412 verbose rebuildBundles   'grunt-contrib-jshint',
+412 verbose rebuildBundles   'grunt-contrib-nodeunit',
+412 verbose rebuildBundles   'grunt-contrib-uglify',
+412 verbose rebuildBundles   'grunt-contrib-watch',
+412 verbose rebuildBundles   'grunt-google-cdn',
+412 verbose rebuildBundles   'grunt-karma',
+412 verbose rebuildBundles   'grunt-newer',
+412 verbose rebuildBundles   'grunt-ngmin',
+412 verbose rebuildBundles   'grunt-rev',
+412 verbose rebuildBundles   'grunt-svgmin',
+412 verbose rebuildBundles   'grunt-usemin',
+412 verbose rebuildBundles   'http-server',
+412 verbose rebuildBundles   'jshint-stylish',
+412 verbose rebuildBundles   'karma',
+412 verbose rebuildBundles   'karma-chrome-launcher',
+412 verbose rebuildBundles   'karma-coffee-preprocessor',
+412 verbose rebuildBundles   'karma-firefox-launcher',
+412 verbose rebuildBundles   'karma-html2js-preprocessor',
+412 verbose rebuildBundles   'karma-jasmine',
+412 verbose rebuildBundles   'karma-junit-reporter',
+412 verbose rebuildBundles   'karma-phantomjs-launcher',
+412 verbose rebuildBundles   'karma-requirejs',
+412 verbose rebuildBundles   'karma-script-launcher',
+412 verbose rebuildBundles   'load-grunt-tasks',
+412 verbose rebuildBundles   'protractor',
+412 verbose rebuildBundles   'requirejs',
+412 verbose rebuildBundles   'shelljs',
+412 verbose rebuildBundles   'time-grunt' ]
+413 verbose rebuild bundle /Users/jeaniechung/projects/jeaniedotcom/node_modules/grunt-cli
+414 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/grunt-cli
+415 info preinstall grunt-cli@0.1.13
+416 verbose linkStuff [ false,
+416 verbose linkStuff   false,
+416 verbose linkStuff   false,
+416 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+417 info linkStuff grunt-cli@0.1.13
+418 warn prefer global grunt-cli@0.1.13 should be installed with -g
+419 verbose linkBins grunt-cli@0.1.13
+420 verbose link bins [ { grunt: 'bin/grunt' },
+420 verbose link bins   '/Users/jeaniechung/projects/jeaniedotcom/node_modules/.bin',
+420 verbose link bins   false ]
+421 verbose linkMans grunt-cli@0.1.13
+422 verbose rebuildBundles grunt-cli@0.1.13
+423 verbose rebuildBundles [ '.bin', 'findup-sync', 'nopt', 'resolve' ]
+424 info install grunt-cli@0.1.13
+425 info postinstall grunt-cli@0.1.13
+426 verbose rebuild bundle /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-chrome-launcher
+427 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-chrome-launcher
+428 info preinstall karma-chrome-launcher@0.1.4
+429 verbose linkStuff [ false,
+429 verbose linkStuff   false,
+429 verbose linkStuff   false,
+429 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+430 info linkStuff karma-chrome-launcher@0.1.4
+431 verbose linkBins karma-chrome-launcher@0.1.4
+432 verbose linkMans karma-chrome-launcher@0.1.4
+433 verbose rebuildBundles karma-chrome-launcher@0.1.4
+434 info install karma-chrome-launcher@0.1.4
+435 info postinstall karma-chrome-launcher@0.1.4
+436 verbose rebuild bundle /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-coffee-preprocessor
+437 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-coffee-preprocessor
+438 info preinstall karma-coffee-preprocessor@0.1.3
+439 verbose linkStuff [ false,
+439 verbose linkStuff   false,
+439 verbose linkStuff   false,
+439 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+440 info linkStuff karma-coffee-preprocessor@0.1.3
+441 verbose linkBins karma-coffee-preprocessor@0.1.3
+442 verbose linkMans karma-coffee-preprocessor@0.1.3
+443 verbose rebuildBundles karma-coffee-preprocessor@0.1.3
+444 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+445 info install karma-coffee-preprocessor@0.1.3
+446 info postinstall karma-coffee-preprocessor@0.1.3
+447 verbose rebuild bundle /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-firefox-launcher
+448 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-firefox-launcher
+449 info preinstall karma-firefox-launcher@0.1.3
+450 verbose linkStuff [ false,
+450 verbose linkStuff   false,
+450 verbose linkStuff   false,
+450 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+451 info linkStuff karma-firefox-launcher@0.1.3
+452 verbose linkBins karma-firefox-launcher@0.1.3
+453 verbose linkMans karma-firefox-launcher@0.1.3
+454 verbose rebuildBundles karma-firefox-launcher@0.1.3
+455 info install karma-firefox-launcher@0.1.3
+456 info postinstall karma-firefox-launcher@0.1.3
+457 verbose rebuild bundle /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-html2js-preprocessor
+458 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-html2js-preprocessor
+459 info preinstall karma-html2js-preprocessor@0.1.0
+460 verbose linkStuff [ false,
+460 verbose linkStuff   false,
+460 verbose linkStuff   false,
+460 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+461 info linkStuff karma-html2js-preprocessor@0.1.0
+462 verbose linkBins karma-html2js-preprocessor@0.1.0
+463 verbose linkMans karma-html2js-preprocessor@0.1.0
+464 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+465 info install karma-html2js-preprocessor@0.1.0
+466 info postinstall karma-html2js-preprocessor@0.1.0
+467 verbose rebuild bundle /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-jasmine
+468 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-jasmine
+469 info preinstall karma-jasmine@0.1.5
+470 verbose linkStuff [ false,
+470 verbose linkStuff   false,
+470 verbose linkStuff   false,
+470 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+471 info linkStuff karma-jasmine@0.1.5
+472 verbose linkBins karma-jasmine@0.1.5
+473 verbose linkMans karma-jasmine@0.1.5
+474 verbose rebuildBundles karma-jasmine@0.1.5
+475 info install karma-jasmine@0.1.5
+476 info postinstall karma-jasmine@0.1.5
+477 verbose rebuild bundle /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-phantomjs-launcher
+478 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-phantomjs-launcher
+479 info preinstall karma-phantomjs-launcher@0.1.4
+480 verbose linkStuff [ false,
+480 verbose linkStuff   false,
+480 verbose linkStuff   false,
+480 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+481 info linkStuff karma-phantomjs-launcher@0.1.4
+482 verbose linkBins karma-phantomjs-launcher@0.1.4
+483 verbose linkMans karma-phantomjs-launcher@0.1.4
+484 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+485 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+486 info install karma-phantomjs-launcher@0.1.4
+487 info postinstall karma-phantomjs-launcher@0.1.4
+488 verbose rebuild bundle /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-requirejs
+489 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-requirejs
+490 info preinstall karma-requirejs@0.2.2
+491 verbose linkStuff [ false,
+491 verbose linkStuff   false,
+491 verbose linkStuff   false,
+491 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+492 info linkStuff karma-requirejs@0.2.2
+493 verbose linkBins karma-requirejs@0.2.2
+494 verbose linkMans karma-requirejs@0.2.2
+495 verbose rebuildBundles karma-requirejs@0.2.2
+496 info install karma-requirejs@0.2.2
+497 info postinstall karma-requirejs@0.2.2
+498 verbose rebuild bundle /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-script-launcher
+499 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/karma-script-launcher
+500 info preinstall karma-script-launcher@0.1.0
+501 verbose linkStuff [ false,
+501 verbose linkStuff   false,
+501 verbose linkStuff   false,
+501 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+502 info linkStuff karma-script-launcher@0.1.0
+503 verbose linkBins karma-script-launcher@0.1.0
+504 verbose linkMans karma-script-launcher@0.1.0
+505 verbose rebuildBundles karma-script-launcher@0.1.0
+506 info install karma-script-launcher@0.1.0
+507 info postinstall karma-script-launcher@0.1.0
+508 verbose rebuild bundle /Users/jeaniechung/projects/jeaniedotcom/node_modules/requirejs
+509 info build /Users/jeaniechung/projects/jeaniedotcom/node_modules/requirejs
+510 info preinstall requirejs@2.1.14
+511 verbose linkStuff [ false,
+511 verbose linkStuff   false,
+511 verbose linkStuff   false,
+511 verbose linkStuff   '/Users/jeaniechung/projects/jeaniedotcom/node_modules' ]
+512 info linkStuff requirejs@2.1.14
+513 verbose linkBins requirejs@2.1.14
+514 verbose link bins [ { 'r.js': './bin/r.js' },
+514 verbose link bins   '/Users/jeaniechung/projects/jeaniedotcom/node_modules/.bin',
+514 verbose link bins   false ]
+515 verbose linkMans requirejs@2.1.14
+516 verbose rebuildBundles requirejs@2.1.14
+517 info install requirejs@2.1.14
+518 info postinstall requirejs@2.1.14
+519 info install jeaniedotcom@0.0.1
+520 info postinstall jeaniedotcom@0.0.1
+521 verbose unsafe-perm in lifecycle true
+522 info prepublish jeaniedotcom@0.0.1
+523 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+523 error peerinvalid Peer karma-junit-reporter@0.2.2 wants karma@>=0.9
+523 error peerinvalid Peer grunt-karma@0.8.3 wants karma@~0.12.0
+523 error peerinvalid Peer karma-chrome-launcher@0.1.4 wants karma@>=0.9.3
+523 error peerinvalid Peer karma-firefox-launcher@0.1.3 wants karma@>=0.9
+523 error peerinvalid Peer karma-html2js-preprocessor@0.1.0 wants karma@>=0.9
+523 error peerinvalid Peer karma-jasmine@0.1.5 wants karma@>=0.9
+523 error peerinvalid Peer karma-requirejs@0.2.2 wants karma@>=0.9
+523 error peerinvalid Peer karma-script-launcher@0.1.0 wants karma@>=0.9
+523 error peerinvalid Peer karma-coffee-preprocessor@0.1.3 wants karma@>=0.9
+523 error peerinvalid Peer karma-phantomjs-launcher@0.1.4 wants karma@>=0.9
+524 error System Darwin 13.2.0
+525 error command "node" "/usr/local/bin/npm" "install"
+526 error cwd /Users/jeaniechung/projects/jeaniedotcom
+527 error node -v v0.10.26
+528 error npm -v 1.4.3
+529 error code EPEERINVALID
+530 verbose exit [ 1, true ]
