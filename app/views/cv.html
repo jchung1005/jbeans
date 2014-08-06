@@ -59,7 +59,13 @@
 <section class="charts section-padding">
   <div class="row">
     <div class="medium-6 columns">
-      <div ac-chart="barchart" ac-data="barData" ac-config="barConfig"></div>
+      <div ng-repeat="skill in skills" class="skillbar">
+        <div class="skill-title" style="background: {{skill.labelColor}}">
+          <span>{{skill.name}}</span></div>
+          <div class="skill-bar" ui-jq="waypoint" ui-options="animatePerc, offset" style="background: {{skill.barColor}};" data-percent="{{skill.perc}}%">
+          </div>
+          <div class="skill-bar-percent">{{skill.perc}}%</div>
+        </div>
     </div>
     <div class="medium-6 columns">
         <div ac-chart="piechart" ac-data="pieData" ac-config="pieConfig"></div>

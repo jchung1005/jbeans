@@ -82,9 +82,9 @@ angular.module('myApp.controllers', [])
     $scope.message = "Placeholder for contact page!";
   }])
 
-  .controller('CVCtrl', ['$scope', '$timeout', '$window', function($scope, $timeout, $window) {
-    // Pizza.init();
-    $scope.jobs = [{
+  .controller('CVCtrl', ['$scope', '$window', function($scope, $window) {
+    $scope.jobs = [
+      {
         dates: "Present",
         position: "Developer",
         company: "NORTHWESTERN UNIVERSITY",
@@ -137,104 +137,31 @@ angular.module('myApp.controllers', [])
         ]
       }];
 
-    $scope.barchart = 'bar';
-    $scope.piechart = 'pie';
-
-    $scope.pieData = {
-      series: ['Activities'],
-      data : [{
-        x : "Music",
-        y: [15],
-        tooltip: "Violin, a capella, piano"
+    $scope.skills = [
+      {
+        name: "Ninja",
+        perc: "80",
+        labelColor: "#2B7C80",
+        barColor: "#20B2AA"
       },
       {
-        x : "Games",
-        y: [30],
-        tooltip: "Mass Effect, Dragon Age, Battleship"
+        name: "Art",
+        perc: "40",
+        labelColor: "#48D1CC",
+        barColor: "#AFEEEE"
       },
       {
-        x : "Eating",
-        y: [50],
-        tooltip: "Pizza, sushi, BBQ"
+        name: "Coffee",
+        perc: "55",
+        labelColor: "#008cba",
+        barColor: "#87CEEB"
       },
       {
-        x : "Puns",
-        y: [15],
-        tooltip: "I'm a Jeanie in a bottle."
-      }]     
-    };
-
-    $scope.pieConfig = {
-      title: 'Things I Like Doing',
-      tooltips: true,
-      labels: true,
-      mouseover: function() {
-          svg.append("svg:text")
-          .attr("dy", ".35em")
-          .attr("text-anchor", "middle")
-          .text("Hello");
-      },
-      mouseout: function() {
-        console.log("out");
-      },
-      click: function() {
-        console.log("click");
-      },
-      legend: {
-        display: false,
-        //could be 'left, right'
-        position: 'left'
-      },
-      innerRadius: "40%", // applicable on pieCharts, can be a percentage like '50%'
-      lineLegend:'lineEnd' // can be also 'traditional'
-    };
-    $scope.barData = {
-      series: ['Skills'],
-      data : [{
-        x : "Programming",
-        y: [5],
-        tooltip: "JavaScript, Ruby, AngularJS, Grunt"
-      },
-      {
-        x : "Web",
-        y: [4],
-        tooltip: "HTML, CSS, jQuery"
-      },
-      {
-        x : "Design",
-        y: [2],
-        tooltip: "Photoshop, Illustrator, Latté art"
-      },
-      {
-        x : "Etc.",
-        y: [3],
-        tooltip: "Spanish, Korean, Scuba Diving"
-      }]     
-    };
-    $scope.barConfig = {
-      title: 'Things I Am Learning',
-      tooltips: true,
-      labels: true,
-      mouseover: function() {
-          svg.append("svg:text")
-          .attr("dy", ".35em")
-          .attr("text-anchor", "middle")
-          .text("Hello");
-      },
-      mouseout: function() {
-        console.log("out");
-      },
-      click: function() {
-        console.log("click");
-      },
-      legend: {
-        display: false,
-        //could be 'left, right'
-        position: 'left'
-      },// applicable on pieCharts, can be a percentage like '50%'
-      lineLegend:'lineEnd' // can be also 'traditional'
-    };
-
+        name: "Curling",
+        perc: "76",
+        labelColor: "#3CB371",
+        barColor: "#66CDAA"
+      }]
     $scope.bounceIn = function() {
       if ($window.innerWidth > 1170) {
         $(this).addClass("animated bounceIn");
@@ -245,6 +172,12 @@ angular.module('myApp.controllers', [])
       if ($window.innerWidth > 1170) {
         $(this).addClass("animated fadeInDown");
       }
+    };
+
+    $scope.animatePerc = function() {
+      $(this).animate({
+        width:$(this).attr('data-percent')
+      },1000);
     };
     $scope.offset = {
       offset: '80%'
