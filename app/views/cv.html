@@ -1,4 +1,4 @@
-<section class="hero" bg-img="/images/hero-about.jpg">
+<section class="hero" bg-img="/images/hero-cv.jpg">
     <div class="container">
         <h1 class="animated fadeInDown">CV</h1>
           <p>Fun, hopefully somewhat interactive resume</p>
@@ -6,7 +6,7 @@
 </section>
 
 <section class="timeline section-padding">
-  <div class="row">
+  <!-- <div class="row">
     <ul class="button-group">
       <li><type="button" class="button" ng-click="yearFilter= null">All</li>
       <li><type="button" class="button" ng-click="yearFilter= {year:2014}">2014</li>
@@ -31,38 +31,30 @@
           </ul>
       </li>
     </ul>
-  </div>
-  <div class="row">
-    <div class="large-6 columns small-centered">
-      <div class="exp-timeline">
-        <div class="container">
-          <ul class="items">
+  </div> -->
+    <div ng-repeat="job in jobs" class="timeline-block">
+      <div class="timeline-icon" ui-jq="waypoint" ui-options="bounceIn, offset">
+        <img src="http://placekitten.com/60/60" />
+      </div>
+      <div class="timeline-blurb" ui-jq="waypoint" ui-options="fadeInDown, offset">
+        <h4>{{job.position}}</h4>
+        <span>{{job.dates}}</span>
+        <h5>{{job.company}} - {{job.location}}</h5>
+        <p>
+          <ul ng-repeat="task in job.tasks">
             <li>
-              <h5>One</h5>
-              <div class="active" style="width: 30%">
-                <div class="finish"></div>
-              </div>
-              <div class="inactive" style="width: 70%"></div>
+              {{task.one}}
             </li>
             <li>
-              <h5>Two</h5>
-              <div class="inactive" style="width: 30%"></div>
-              <div class="active" style="width: 70%">
-                <div class="start"></div>
-              </div>
+              {{task.two}}
             </li>
             <li>
-              <h5>Three</h5>
-              <div class="inactive" style="width: 90%"></div>
-              <div class="active" style="width: 10%">
-                <div class="start"></div>
-              </div>
+              {{task.three}}
             </li>
           </ul>
-        </div>
+        </p>
       </div>
     </div>
-  </div>
 </section>
 <section class="charts section-padding">
   <div class="row">

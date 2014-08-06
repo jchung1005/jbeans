@@ -57,7 +57,7 @@ angular.module('myApp.controllers', [])
     };
     $scope.fadeRight = function() {
         $(this).addClass('animated fadeInRight');
-    }
+    };
     $scope.offset = {
         offset: '80%'
       };
@@ -69,41 +69,73 @@ angular.module('myApp.controllers', [])
 
   .controller('AboutCtrl', ['$scope', function($scope) {
     $scope.message = "This is my about page!";
+    $scope.fadeInDown = function() {
+      $(this).addClass('animated fadeInDown');
+    };
+
+    $scope.offset = {
+      offset: '55%'
+    };
   }])
 
   .controller('ContactCtrl', ['$scope', function($scope) {
     $scope.message = "Placeholder for contact page!";
   }])
 
-  .controller('CVCtrl', ['$scope', '$timeout', function($scope, $timeout) {
+  .controller('CVCtrl', ['$scope', '$timeout', '$window', function($scope, $timeout, $window) {
     // Pizza.init();
     $scope.jobs = [{
-        year: "2014",
+        dates: "Present",
+        position: "Developer",
+        company: "NORTHWESTERN UNIVERSITY",
+        location: "Chicago, IL",
+        tasks: [
+          {
+           one: "Developing and debugging websites and mobile apps that target behavioral interventions using AngularJS, HTML5, CSS3, and Ruby on Rails. Additional experience using GitHub, Cordova, CLI, Grunt, Bower, and Node.",
+           two: "Interfacing with clinicians and researchers to determine technical requirements and priorities to work in an agile manner.",
+           three: "Continuing to create JavaScript libraries and contributing to Bower and Yeoman to assist in scalability in group's app development." 
+          }
+        ]
+      },
+      {
+        dates: "1.2013 - 3.2014",
         position: "Functional Analyst",
         company: "RAZORFISH",
         location: "Chicago, IL",
         tasks: [
           {
-           one: "doing stuff",
-           two: "doing more stuff",
-           three: "doing a lot of stuff" 
+           one: "Collaborated with Fortune 500 clients across six time zones and pushing code changes on a daily basis.",
+           two: "Reviewed code repositories and ensured best practices amongst five different disciplines via elementool, AtTask, JIRA, and Confluence.",
+           three: "Self-taught coding languages to better communicate with developers and became a highly-utilized front-end resource." 
           }
         ]
       },
       {
-        year: "2012",
+        dates: "10.2012 - 1.2013",
         position: "Research Assistant",
         company: "NORTHWESTERN UNIVERSITY",
         location: "Chicago, IL",
         tasks: [
           {
-           one: "doing stuff",
-           two: "doing more stuff",
-           three: "doing a lot of stuff" 
+           one: "Co-authored 20+ health articles targeting medical providers, adolescents, and academic professionals.",
+           two: "Researched GIS methods to reduce risky drug use by 20%.",
+           three: "Wrote custom syntax for SPSS to save 40+ hours of manual analysis." 
           }
         ]
-      }
-    ];
+      },
+      {
+        dates: "6.2012 - 10.2012",
+        position: "QA Analyst",
+        company: "Mattersight Corporation",
+        location: "Chicago, IL",
+        tasks: [
+          {
+           one: "Composed client playbooks that reduced “Help” submission by 70% and future requests from client for additional guides.",
+           two: "Tested and debugged new functionality to save 50+ hours and $3,000 in development costs.",
+           three: "Jumped into projects at any point of lifecycle and employed scrum, agile, waterfall, and sometimes “agilefall” methodologies." 
+          }
+        ]
+      }];
 
     $scope.barchart = 'bar';
     $scope.piechart = 'pie';
@@ -202,6 +234,21 @@ angular.module('myApp.controllers', [])
       },// applicable on pieCharts, can be a percentage like '50%'
       lineLegend:'lineEnd' // can be also 'traditional'
     };
+
+    $scope.bounceIn = function() {
+      if ($window.innerWidth > 1170) {
+        $(this).addClass("animated bounceIn");
+      }
+    };
+
+    $scope.fadeInDown = function() {
+      if ($window.innerWidth > 1170) {
+        $(this).addClass("animated fadeInDown");
+      }
+    };
+    $scope.offset = {
+      offset: '80%'
+    }
 
     $scope.message = "Placeholder for CV page!";
   }])
