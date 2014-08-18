@@ -5,7 +5,7 @@ Base
 
 html, body {
   height: 100%; 
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Raleway','Open Sans', sans-serif !important;
   font-size: 15px;
   line-height: 1.64;
 }
@@ -37,6 +37,26 @@ html, body {
   padding: 0;
 }
 
+.separator { 
+  -webkit-background-size: cover; 
+   -moz-background-size: cover; 
+   -o-background-size: cover; 
+   background-size: cover; 
+  background-attachment: fixed; 
+  padding: 50px 0; 
+  height: 350px;
+}
+.separator h1 { 
+  color: #fff; 
+  font-size: 40px; 
+  letter-spacing: 3px;
+  text-transform: uppercase; 
+}
+.separator h1 span { 
+  display: block; 
+  font-size: 25px; 
+  margin-top: 20px; 
+}
 /* ==========================================================================
 Hero
 ========================================================================== */
@@ -91,26 +111,7 @@ Intro
 Portfolio
 ========================================================================== */
 
-.swag { 
-  -webkit-background-size: cover; 
-   -moz-background-size: cover; 
-   -o-background-size: cover; 
-   background-size: cover; 
-  background-attachment: fixed; 
-  padding: 50px 0; 
-  height: 350px;
-}
-.swag h1 { 
-  color: #fff; 
-  font-size: 40px; 
-  text-transform: uppercase; 
-  letter-spacing: 5px; 
-}
-.swag h1 span { 
-  display: block; 
-  font-size: 25px; 
-  margin-top: 20px; 
-}
+
 
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
@@ -267,25 +268,28 @@ CV - Timeline
 ========================================================================== */
 
 .timeline {
+  background: #F7F7F7;
+}
+.timeline-container {
   position: relative;
   padding: 2em 0;
   margin: 2em;
 }
 
-.timeline::before {
+.timeline-container::before {
   content: '';
   position: absolute;
   top: 0;
   left: 15px;
   height: 100%;
   width: 10px;
-  background: rgb(80,80,80);
-  background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: rgb(158,21,15);
+  background: -moz-linear-gradient(top, rgba(158,21,15,0) 0%, rgb(158,21,15) 8%, rgb(158,21,15) 92%, rgba(158,21,15,0) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
-  background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-  background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-  background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-  background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(158,21,15,0) 0%, rgb(158,21,15) 8%, rgb(158,21,15) 92%, rgba(158,21,15,0) 100%);
+  background: -o-linear-gradient(top, rgba(158,21,15,0) 0%, rgb(158,21,15) 8%, rgb(158,21,15) 92%, rgba(158,21,15,0) 100%);
+  background: -ms-linear-gradient(top, rgba(158,21,15,0) 0%, rgb(158,21,15) 8%, rgb(158,21,15) 92%, rgba(158,21,15,0) 100%);
+  background: linear-gradient(to bottom, rgba(158,21,15,0) 0%, rgb(158,21,15) 8%, rgb(158,21,15) 92%, rgba(158,21,15,0) 100%);
 }
 
 .timeline-block {
@@ -311,18 +315,20 @@ CV - Timeline
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #6699CC;
-  border: 3px solid white;
+  background: #9E150F;
+  border: 3px solid black;
 }
-.timeline-icon img {
+.timeline-icon i {
   display: block;
   width: 24px;
   height: 24px;
   position: relative;
   left: 50%;
   top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+  margin-left: -10px;
+  margin-top: -18px;
+  color: white;
+  font-size: 24px;
 }
 
 .timeline-blurb {
@@ -353,24 +359,23 @@ CV - Timeline
 
 .timeline-blurb h5 {
   font-size: .75em;
-  color: #6699CC;
+  color: #046D8B;
 }
 
 .timeline-blurb span {
   position: absolute;
-  top: 10%;
+  top: 5%;
   right: 5%;
   font-size: .75em;
-  padding: 0 5px;
-  color: gray;
+  color: #3B3737;
 }
 
-@media only screen and (min-width: 1170px) {
-  .timeline {
+@media only screen and (min-width: 800px) {
+  .timeline-container {
     margin-top: 3em;
     margin-bottom: 3em;
   }
-  .timeline::before {
+  .timeline-container::before {
     left: 50%;
     margin-left: -5px;
   }
@@ -393,6 +398,12 @@ CV - Timeline
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
+
+  .timeline-icon i {
+    margin-left: -12px;
+    margin-top: -22px;
+    font-size: 30px;
+  }
   .timeline-blurb {
     margin-left: 0;
     padding: 1.6em;
@@ -405,13 +416,13 @@ CV - Timeline
     border-color: transparent;
     border-left-color: white;
   }
-  .timeline-blurb .date {
+  .timeline-blurb .span {
     position: absolute;
-    width: 100%;
-    left: 122%;
-    top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
+    top: 10%;
+    right: 5%;
+    font-size: .75em;
+    padding: 0 5px;
+    color: #3B3737;
   }
   .timeline-block:nth-child(even) .timeline-blurb {
     float: right;
@@ -422,7 +433,6 @@ CV - Timeline
     right: 100%;
     border-color: transparent;
     border-right-color: white;
-
   }
 }
 
@@ -465,7 +475,7 @@ progress, progress[role] {
   position:absolute;
   top:0;
   left:0;
-  width: 25%;
+  width: auto;
   font-weight:bold;
   font-size:13px;
   color:#ffffff;
@@ -512,9 +522,34 @@ progress, progress[role] {
 }
 
 /* ==========================================================================
+CV - Charts
+========================================================================== */
+.charts {
+  max-width: none;
+}
+
+/* ==========================================================================
 About Page
 ========================================================================== */
 
+section.about a {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  color: #404d5b;
+  vertical-align: bottom;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+section.about a::before,
+section.about a::after {
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
 .bio { 
   width: 100%; 
   background: #f3f5f8; 
@@ -529,25 +564,48 @@ About Page
   height: 100%; 
   visibility: hidden;
 }
-
-.fluid-white { 
-  width: 50%; 
-  background: #fff; 
-  float: right; 
-  height: 100%; 
-  z-index: 2; 
-}
-.responsive-services { 
-  position: relative; 
+.bio-content a {
+  padding: 0 0.25em;
+  font-weight: 500;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
 }
 
-.designs { 
-  position: absolute; 
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto;
-  top: 50px; 
+.bio-content a:hover {
+  color: #d04c3f;
+}
+
+.bio-content a::before,
+.bio-content a::after {
+  position: absolute;
+  top: 0;
+  font-weight: 100;
+  font-size: 150%;
+  line-height: 1;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.bio-content a::before {
+  left: -0.1em;
+  content: '{';
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.bio-content a::after {
+  right: -0.1em;
+  content: '}';
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.bio-content a:hover::before,
+.bio-content a:hover::after {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
 }
 
 
@@ -609,6 +667,10 @@ footer ul {
   font-size: 30px;
   color: #FF3333;
   text-shadow: 0 1px 3px ghostwhite;
+}
+
+.copyright {
+  font-size: .75em;
 }
 
 @media all and (max-width: 640px) {

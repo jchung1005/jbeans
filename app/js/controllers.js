@@ -139,37 +139,41 @@ angular.module('myApp.controllers', [])
 
     $scope.skills = [
       {
-        name: "Ninja",
+        name: "Programming",
         perc: "80",
         labelColor: "#2B7C80",
-        barColor: "#20B2AA"
+        barColor: "#20B2AA",
+        tooltip: "JavaScript, Ruby, Python"
       },
       {
-        name: "Art",
-        perc: "40",
+        name: "Web",
+        perc: "70",
         labelColor: "#48D1CC",
-        barColor: "#AFEEEE"
+        barColor: "#AFEEEE",
+        tooltip: "HTML, CSS, Foundation, Bootstrap"
       },
       {
-        name: "Coffee",
-        perc: "55",
+        name: "Design",
+        perc: "40",
         labelColor: "#008cba",
-        barColor: "#87CEEB"
+        barColor: "#87CEEB",
+        tooltip: "Photoshop, inDesign, Latté art"
       },
       {
-        name: "Curling",
+        name: "Etc.",
         perc: "76",
         labelColor: "#3CB371",
-        barColor: "#66CDAA"
+        barColor: "#66CDAA",
+        tooltip: "Korean, Spanish, DJing"
       }]
     $scope.bounceIn = function() {
-      if ($window.innerWidth > 1170) {
+      if ($window.innerWidth > 800) {
         $(this).addClass("animated bounceIn");
       }
     };
 
     $scope.fadeInDown = function() {
-      if ($window.innerWidth > 1170) {
+      if ($window.innerWidth > 800) {
         $(this).addClass("animated fadeInDown");
       }
     };
@@ -180,7 +184,7 @@ angular.module('myApp.controllers', [])
       },1000);
     };
     $scope.offset = {
-      offset: '80%'
+      offset: '85%'
     }
 
     $scope.message = "Placeholder for CV page!";
