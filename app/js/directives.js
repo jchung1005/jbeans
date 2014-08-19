@@ -10,10 +10,10 @@ angular.module('myApp.directives', [])
 	    };
 	}])
 	.directive('bgImg', function(){
-    return function(scope, element, attrs){
-        var src = attrs.bgImg;
-        element.css({
-            'background-image': 'url(' + src +')'
-          });
-    };
-});
+    	return function(scope, element, attrs){
+	        var src = attrs.bgImg;
+	        element.css({
+	            'background-image': 'url(' + src +')'
+	          });
+    	};
+	});

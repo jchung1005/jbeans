@@ -4,53 +4,6 @@
 
 angular.module('myApp.controllers', [])
   .controller('MainCtrl', ['$scope', function($scope) {
-    $scope.vitalStats = [{
-      key: 'Name',
-      value: 'Jeanie Chung'
-    },
-    {
-      key: 'Age',
-      value: 'Twenty-something'
-    },
-    {
-      key: 'Location',
-      value: 'Chicago, IL'
-    }];
-
-    $scope.portfolio = [{
-        title: 'Cats',
-        img: 'http://placekitten.com/600/600',
-        description: 'Lorem ipsum bacon dolor pig fat jowl.',
-        effect:'bubba',
-        delay:'0',
-        animation: 'fadeLeft',
-        url: ''
-      },
-      {
-        title: 'CONEMO',
-        img: 'http://placekitten.com/600/600',
-        description: 'Lorem ipsum bacon dolor pig fat jowl.',
-        effect:'bubba',
-        delay:'.5s',
-        animation: 'fadeRight',
-        url: 'https://github.com/cbitstech/conemo_app'
-      },
-      {
-        title: 'FOCUS',
-        img: 'http://placekitten.com/600/600',
-        description: 'Lorem ipsum bacon dolor pig fat jowl.',
-        effect:'bubba',
-        delay:'0s',
-        animation: 'fadeLeft'
-      },
-      {
-        title: 'Cool stuff',
-        img: 'http://placekitten.com/600/600',
-        description: 'Lorem ipsum bacon dolor pig fat jowl.',
-        effect:'bubba',
-        delay:'.5s',
-        animation: 'fadeRight'
-    }];
 
     $scope.fadeLeft = function() {
         $(this).addClass('animated fadeInLeft');
@@ -58,6 +11,10 @@ angular.module('myApp.controllers', [])
     $scope.fadeRight = function() {
         $(this).addClass('animated fadeInRight');
     };
+    $scope.fadeInDown = function() {
+      $(this).addClass('animated fadeInDown');
+    };
+
     $scope.offset = {
         offset: '80%'
       };
@@ -65,23 +22,32 @@ angular.module('myApp.controllers', [])
         $(this).addClass('animated zoomIn');
     };
 
+    $scope.team = [
+      {
+        name: 'Jeanie',
+        position: 'devengineer/shark afficionado',
+        description: 'Jeanie is a developer who tries to code every process in her life. She almost always picks the fire Pokémon starter, plays "Rogue" class, and has a penchant for live music and scuba diving. She loves going to the Shedd Aquarium, her favorite spot in Chicago.',
+        img: 'jeanie.jpg',
+        animation: 'fadeLeft'
+      },
+      {
+        name: 'Jo',
+        position: 'moral support/tasty beverage',
+        description: 'Jo always gets the team through a tough spot and is probably the hottest of the team. She\'s always the first one to say, "We\'ve got this, guys!" Her interests include mugs.',
+        img: 'coffee.jpg',
+        animation: 'fadeInDown'
+      },
+      {
+        name: 'Jelly',
+        position: 'drunk baby antics/shepherd mix',
+        description: '80% pain-in-the-butt and 20% cute-face, Jelly often likes to sit on laptops, hindering a lot of work. Her interests include squeaky toys and sticks that are bigger than her body.',
+        img: 'jelly.jpg',
+        animation: 'fadeRight'
+      }
+    ];
+
+
   }])
-
-  .controller('AboutCtrl', ['$scope', function($scope) {
-    $scope.message = "This is my about page!";
-    $scope.fadeInDown = function() {
-      $(this).addClass('animated fadeInDown');
-    };
-
-    $scope.offset = {
-      offset: '55%'
-    };
-  }])
-
-  .controller('ContactCtrl', ['$scope', function($scope) {
-    $scope.message = "Placeholder for contact page!";
-  }])
-
   .controller('CVCtrl', ['$scope', '$window', function($scope, $window) {
     $scope.jobs = [
       {
@@ -150,22 +116,83 @@ angular.module('myApp.controllers', [])
         perc: "70",
         labelColor: "#48D1CC",
         barColor: "#AFEEEE",
-        tooltip: "HTML, CSS, Foundation, Bootstrap"
+        tooltip: "HTML, CSS, Foundation, Bootstrap, WordPress, jQuery"
       },
       {
         name: "Design",
         perc: "40",
         labelColor: "#008cba",
         barColor: "#87CEEB",
-        tooltip: "Photoshop, inDesign, Latté art"
+        tooltip: "Photoshop, inDesign, drawing stick people, making latté art"
       },
       {
         name: "Etc.",
         perc: "76",
         labelColor: "#3CB371",
         barColor: "#66CDAA",
-        tooltip: "Korean, Spanish, DJing"
-      }]
+        tooltip: "Fluent in Korean, proficient in Spanish, pretty good at making party playlists"
+      }];
+
+    $scope.portfolio = [{
+        title: 'Seabreeze Charter',
+        img: 'http://placekitten.com/600/600',
+        description: 'Website facelifts = free boat rides on Lake Michigan.',
+        effect:'bubba',
+        delay:'0',
+        animation: 'fadeLeft',
+        url: 'http://seabreezesail.com/'
+      },
+      {
+        title: 'CONEMO',
+        img: 'http://placekitten.com/600/600',
+        description: 'Lorem ipsum bacon dolor pig fat jowl.',
+        effect:'bubba',
+        delay:'.5s',
+        animation: 'fadeRight',
+        url: 'https://github.com/cbitstech/conemo_app'
+      },
+      {
+        title: 'FOCUS',
+        img: 'http://placekitten.com/600/600',
+        description: 'Lorem ipsum bacon dolor pig fat jowl.',
+        effect:'bubba',
+        delay:'0s',
+        animation: 'fadeLeft',
+        url: 'https://github.com/cbitstech/focus_app'
+      },
+      {
+        title: 'Special K',
+        img: 'http://placekitten.com/600/600',
+        description: 'Lorem ipsum bacon dolor pig fat jowl.',
+        effect:'bubba',
+        delay:'.5s',
+        animation: 'fadeRight',
+        url: "http://www.specialk.com/en_us/home-page.html"
+    }];
+
+    $scope.interests = [
+      {
+        path: 'images/svg/fish.svg',
+        description: 'Sea creatures'
+      },
+      {
+        path: 'images/svg/game.svg',
+        description: 'Video games'
+      },
+      {
+        path: 'images/svg/pizza.svg',
+        description: 'Food & restaurants'
+      },
+      {
+        path: 'images/svg/health.svg',
+        description: 'Public health & health apps'
+      },
+      {
+        path: 'images/svg/music.svg',
+        description: 'Playing violin, piano, guitar, & DJing.'
+      }
+    ];
+
     $scope.bounceIn = function() {
       if ($window.innerWidth > 800) {
         $(this).addClass("animated bounceIn");
@@ -177,17 +204,22 @@ angular.module('myApp.controllers', [])
         $(this).addClass("animated fadeInDown");
       }
     };
-
+    $scope.fadeLeft = function() {
+        $(this).addClass('animated fadeInLeft');
+    };
+    $scope.fadeRight = function() {
+        $(this).addClass('animated fadeInRight');
+    };
     $scope.animatePerc = function() {
       $(this).animate({
         width:$(this).attr('data-percent')
       },1000);
     };
+
     $scope.offset = {
       offset: '85%'
-    }
+    };
 
-    $scope.message = "Placeholder for CV page!";
   }])
 
   .controller('navCtrl', ['$scope', '$location', function ($scope, $location) {
@@ -195,16 +227,6 @@ angular.module('myApp.controllers', [])
       title: 'Home',
       url: '#',
       icon: ''
-    },
-    {
-      title: 'About',
-      url: 'about',
-      icon: 'torso'
-    },
-    {
-      title: 'Contact',
-      url: 'contact',
-      icon: 'at-sign'
     },
     {
       title: 'CV',

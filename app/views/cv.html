@@ -1,11 +1,12 @@
-<section class="hero" bg-img="/images/hero-cv.jpg">
-    <div class="container">
+<section class="hero" bg-img="/images/hero-cv.png">
+    <div class="container white">
         <h1 class="animated fadeInDown">CV</h1>
-          <p>Fun, hopefully somewhat interactive resume</p>
+          <p>Some stuff Jeanie has done</p>
     </div>
 </section>
 <section class="objective section-padding text-center">
-  <p>Style this similar to the intro section on homepage. Talk about objectives, general background maybe.</p>
+  <h1>TLDR;</h1>
+  <p>After graduating from Washington University with a B.S. in <a target="_blank" href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&es_th=1&ie=UTF-8#q=what+is+systems+engineering">Systems Engineering</a>, Jeanie was well-equipped for any job with a problem to solve. Initially finding work as a business analyst, she made it her goal to learn coding languages in order to better communicate with developers on her team. This resulted in her transitioning to a developer role and trying to shape herself into a well-balanced engineer. She aims to work smart, over-communicate, and never stop learning.</p>
 </section>
 <section class="timeline section-padding">
   <div class="timeline-container">
@@ -35,21 +36,58 @@
   </div>
 </section>
 <section class="section-padding">
-  <div class="row no-margin charts">
-    <div class="medium-6 columns">
-      <h2>Things I'm Learning</h2>
+  <div class="row charts">
+    <div class="medium-12 columns">
+      <h2>Skills</h2>
       <p><em>...on a scale of 0 to Yoda.</em></p>
-      <div ng-repeat="skill in skills" class="skillbar">
-        <div class="skill-title" style="background: {{skill.labelColor}}">
-          <span>{{skill.name}}</span></div>
-          <div class="skill-bar" ui-jq="waypoint" ui-options="animatePerc, offset" style="background: {{skill.barColor}};" data-percent="{{skill.perc}}%" popover="{{skill.tooltip}}" popover-trigger="mouseenter">
-          </div>
-          <div class="skill-bar-percent">{{skill.perc}}%</div>
+      <div ng-repeat="skill in skills">
+        <div class="skillbar">
+          <div class="skill-title" style="background: {{skill.labelColor}}">
+            <span>{{skill.name}}</span></div>
+            <div class="skill-bar" ui-jq="waypoint" ui-options="animatePerc, offset" style="background: {{skill.barColor}};" data-percent="{{skill.perc}}%">
+            </div>
+            <div class="skill-bar-percent">{{skill.perc}}%</div>
+
         </div>
+        <p>// <em>{{skill.tooltip}}</em></p>
+
+      </div>
     </div>
-    <div class="medium-6 columns">
-      <h2>Things I Love</h2>
-      <p>Icons of things I like doing here</p>
+  </div>
+</section>
+<section class="separator text-center" bg-img="/images/code.png">
+  <div class="container">
+    <div class="row">
+      <div class="medium-8 medium-offset-2 columns white">
+        <h1>Portfolio: <span>select works</span></h1>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="portfolio section-padding" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="large-6 medium-6 columns" ng-repeat="item in portfolio">
+          <figure class="hidden effect-bubba delay-{{item.delay}}" ui-jq="waypoint" ui-options="{{item.animation}}, offset">
+            <img src="{{item.img}}" />
+            <figcaption>
+              <h2>{{item.title}}</h2>
+              <!-- <p>{{item.description}}</p> -->
+              <a target="_blank" href="{{item.url}}"></a>
+            </figcaption>
+          </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="interests section-padding">
+  <div class="container">
+    <div class="row">
+      <h2>Other interests</h2>
+      <div class="medium-2 columns" ng-class="{'end':$last}" ng-repeat="item in interests">
+        <span ng-include="item.path"></span>
+        <p>{{item.description}}</p>
+      </div>
     </div>
   </div>
 </section>
