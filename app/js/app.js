@@ -16,11 +16,26 @@ var app = angular.module('myApp', [
 
 
 app.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/', {templateUrl: 'views/main.html', controller: 'MainCtrl'});
-  $routeProvider.when('/about', {templateUrl: 'views/about.html', controller: 'AboutCtrl'});
-  $routeProvider.when('/contact', {templateUrl: 'views/contact.html', controller: 'ContactCtrl'});
-  $routeProvider.when('/cv', {templateUrl: 'views/cv.html', controller: 'CVCtrl'});
-  $routeProvider.otherwise({redirectTo: '/'});
+  $routeProvider
+    .when('/', {
+      templateUrl: 'views/main.html', 
+      controller: 'MainCtrl'
+    })
+    .when('/about', {
+      templateUrl: 'views/about.html', 
+      controller: 'AboutCtrl'
+    })
+    .when('/contact', {
+      templateUrl: 'views/contact.html', 
+      controller: 'ContactCtrl'
+    })
+    .when('/cv', {
+      templateUrl: 'views/cv.html', 
+      controller: 'CVCtrl'
+    })
+    .otherwise({
+      redirectTo: '/'
+    });
 }]);
 
 

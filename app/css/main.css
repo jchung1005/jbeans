@@ -291,6 +291,12 @@ Portfolio
   font-weight: 300;
 }
 
+@media all and (max-width: 770px) {
+  .portfolio figure {
+    visibility: visible;
+  } 
+}
+
 /*---------------*/
 /***** Bubba *****/
 /*---------------*/
@@ -300,13 +306,13 @@ figure.effect-bubba {
 }
 
 figure.effect-bubba img {
-  opacity: 0.8;
+  opacity: 0.6;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
 
 figure.effect-bubba:hover img {
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 figure.effect-bubba figcaption::before,
@@ -367,11 +373,25 @@ figure.effect-bubba:hover p {
   transform: translate3d(0,0,0);
 }
 
+@media all and (max-width: 770px) {
+  figure.effect-bubba h2, p {
+    opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  } 
+}
+
 
 /* ==========================================================================
 CV
 ========================================================================== */ 
+.objective {
+  padding: 100px 50px;
+}
 
+#cv-badge {
+  width: 40%;
+}
 
 /* ==========================================================================
 CV - Timeline
@@ -393,13 +413,13 @@ CV - Timeline
   left: 15px;
   height: 100%;
   width: 10px;
-  background: rgb(158,21,15);
-  background: -moz-linear-gradient(top, rgba(158,21,15,0) 0%, rgb(158,21,15) 8%, rgb(158,21,15) 92%, rgba(158,21,15,0) 100%);
+  background: rgb(31,102,177);
+  background: -moz-linear-gradient(top, rgba(31,102,177,0) 0%, rgb(31,102,177) 8%, rgb(31,102,177) 92%, rgba(31,102,177,0) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
-  background: -webkit-linear-gradient(top, rgba(158,21,15,0) 0%, rgb(158,21,15) 8%, rgb(158,21,15) 92%, rgba(158,21,15,0) 100%);
-  background: -o-linear-gradient(top, rgba(158,21,15,0) 0%, rgb(158,21,15) 8%, rgb(158,21,15) 92%, rgba(158,21,15,0) 100%);
-  background: -ms-linear-gradient(top, rgba(158,21,15,0) 0%, rgb(158,21,15) 8%, rgb(158,21,15) 92%, rgba(158,21,15,0) 100%);
-  background: linear-gradient(to bottom, rgba(158,21,15,0) 0%, rgb(158,21,15) 8%, rgb(158,21,15) 92%, rgba(158,21,15,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(31,102,177,0) 0%, rgb(31,102,177) 8%, rgb(31,102,177) 92%, rgba(31,102,177,0) 100%);
+  background: -o-linear-gradient(top, rgba(31,102,177,0) 0%, rgb(31,102,177) 8%, rgb(31,102,177) 92%, rgba(31,102,177,0) 100%);
+  background: -ms-linear-gradient(top, rgba(31,102,177,0) 0%, rgb(31,102,177) 8%, rgb(31,102,177) 92%, rgba(31,102,177,0) 100%);
+  background: linear-gradient(to bottom, rgba(31,102,177,0) 0%, rgb(31,102,177) 8%, rgb(31,102,177) 92%, rgba(158,21,15,0) 100%);
 }
 
 .timeline-block {
@@ -425,8 +445,8 @@ CV - Timeline
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #9E150F;
-  border: 3px solid black;
+  background: #1F66B1;
+  border: 2px solid #2A3F5E;
 }
 .timeline-icon i {
   display: block;
@@ -441,6 +461,17 @@ CV - Timeline
   font-size: 24px;
 }
 
+#laptop {
+  left: 46%;
+}
+
+#clipboard-pencil {
+  left: 52%;
+}
+
+#loop {
+  left: 52%;
+}
 .timeline-blurb {
   position: relative;
   margin-left: 60px;
@@ -546,6 +577,13 @@ CV - Timeline
   }
 }
 
+@media all and (min-width: 320px) {
+  .timeline-blurb span {
+    position: initial;
+    font-size: .75em;
+    color: #3B3737;
+  }
+}
 /* ==========================================================================
 CV - Skills
 ========================================================================== */

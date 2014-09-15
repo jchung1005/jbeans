@@ -61,7 +61,8 @@ angular.module('myApp.controllers', [])
            two: "Interfacing with clinicians and researchers to determine technical requirements and priorities to work in an agile manner.",
            three: "Continuing to create JavaScript libraries and contributing to Bower and Yeoman to assist in scalability in group's app development." 
           }
-        ]
+        ],
+        icon: "laptop"
       },
       {
         dates: "1.2013 - 3.2014",
@@ -74,7 +75,8 @@ angular.module('myApp.controllers', [])
            two: "Reviewed code repositories and ensured best practices amongst five different disciplines via elementool, AtTask, JIRA, and Confluence.",
            three: "Self-taught coding languages to better communicate with developers and became a highly-utilized front-end resource." 
           }
-        ]
+        ],
+        icon: "graph-trend"
       },
       {
         dates: "10.2012 - 1.2013",
@@ -87,7 +89,8 @@ angular.module('myApp.controllers', [])
            two: "Researched GIS methods to reduce risky drug use by 20%.",
            three: "Wrote custom syntax for SPSS to save 40+ hours of manual analysis." 
           }
-        ]
+        ],
+        icon: "clipboard-pencil"
       },
       {
         dates: "6.2012 - 10.2012",
@@ -100,7 +103,8 @@ angular.module('myApp.controllers', [])
            two: "Tested and debugged new functionality to save 50+ hours and $3,000 in development costs.",
            three: "Jumped into projects at any point of lifecycle and employed scrum, agile, waterfall, and sometimes “agilefall” methodologies." 
           }
-        ]
+        ],
+        icon: "loop"
       }];
 
     $scope.skills = [
@@ -135,7 +139,7 @@ angular.module('myApp.controllers', [])
 
     $scope.portfolio = [{
         title: 'Seabreeze Charter',
-        img: 'http://placekitten.com/600/600',
+        img: 'images/cv-seabreeze.jpg',
         description: 'Website facelifts = free boat rides on Lake Michigan.',
         effect:'bubba',
         delay:'0',
@@ -144,7 +148,7 @@ angular.module('myApp.controllers', [])
       },
       {
         title: 'CONEMO',
-        img: 'http://placekitten.com/600/600',
+        img: '',
         description: 'Lorem ipsum bacon dolor pig fat jowl.',
         effect:'bubba',
         delay:'.5s',
@@ -153,7 +157,7 @@ angular.module('myApp.controllers', [])
       },
       {
         title: 'FOCUS',
-        img: 'http://placekitten.com/600/600',
+        img: '',
         description: 'Lorem ipsum bacon dolor pig fat jowl.',
         effect:'bubba',
         delay:'0s',
@@ -162,34 +166,48 @@ angular.module('myApp.controllers', [])
       },
       {
         title: 'Special K',
-        img: 'http://placekitten.com/600/600',
+        img: 'images/cv-specialk.png',
         description: 'Lorem ipsum bacon dolor pig fat jowl.',
         effect:'bubba',
         delay:'.5s',
         animation: 'fadeRight',
         url: "http://www.specialk.com/en_us/home-page.html"
-    }];
+      },
+      {
+        title: 'Fido\'s Gotta Go',
+        img: 'images/cv-fido.jpeg',
+        description: 'Lorem ipsum bacon dolor pig fat jowl.',
+        effect:'bubba',
+        delay:'0s',
+        animation: 'fadeLeft',
+        url: 'http://www.fidosgottago.com/'
+      },
+      {
+        title: 'CBITS',
+        img: '',
+        description: 'Lorem ipsum bacon dolor pig fat jowl.',
+        effect:'bubba',
+        delay:'0s',
+        animation: 'fadeRight',
+        url: 'http://www.thecbits.com/'
+      }];
 
     $scope.interests = [
       {
         path: 'images/svg/fish.svg',
-        description: 'Sea creatures'
+        description: 'scuba diving | ocean trivia'
       },
       {
         path: 'images/svg/game.svg',
-        description: 'Video games'
+        description: 'gaming | modding'
       },
       {
         path: 'images/svg/pizza.svg',
-        description: 'Food & restaurants'
-      },
-      {
-        path: 'images/svg/health.svg',
-        description: 'Public health & health apps'
+        description: 'cooking | eating'
       },
       {
         path: 'images/svg/music.svg',
-        description: 'Playing violin, piano, guitar, & DJing.'
+        description: 'playing | composing'
       }
     ];
 
@@ -205,10 +223,14 @@ angular.module('myApp.controllers', [])
       }
     };
     $scope.fadeLeft = function() {
+      if ($window.innerWidth > 800) {
         $(this).addClass('animated fadeInLeft');
+      }
     };
     $scope.fadeRight = function() {
+      if ($window.innerWidth > 800) {
         $(this).addClass('animated fadeInRight');
+      }
     };
     $scope.animatePerc = function() {
       $(this).animate({
@@ -230,8 +252,13 @@ angular.module('myApp.controllers', [])
     },
     {
       title: 'CV',
-      url: 'cv',
+      url: '#/cv',
       icon: 'results'
+    },
+    {
+      title: 'Contact',
+      url: 'mailto:hey@jeaniechung.com',
+      icon: 'at-sign'
     }];
 
 	$scope.navClass = function (page) {

@@ -1,18 +1,18 @@
 <section class="hero" bg-img="/images/hero-cv.png">
     <div class="container white">
-        <h1 class="animated fadeInDown">CV</h1>
-          <p>Some stuff Jeanie has done</p>
+        <h1 class="animated fadeInDown"><img id="cv-badge" src="images/svg/cv-badge.svg" /></h1>
     </div>
 </section>
 <section class="objective section-padding text-center">
   <h1>TLDR;</h1>
-  <p>After graduating from Washington University with a B.S. in <a target="_blank" href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&es_th=1&ie=UTF-8#q=what+is+systems+engineering">Systems Engineering</a>, Jeanie was well-equipped for any job with a problem to solve. Initially finding work as a business analyst, she made it her goal to learn coding languages in order to better communicate with developers on her team. This resulted in her transitioning to a developer role and trying to shape herself into a well-balanced engineer. She aims to work smart, over-communicate, and never stop learning.</p>
+  <p>After graduating from Washington University with a B.S. in Systems Engineering, Jeanie was well-equipped for any job with a problem to solve. Initially finding work as a business analyst, she made it her goal to learn coding languages in order to better communicate with developers on her team. This resulted in her transitioning to a developer role and trying to shape herself into a well-balanced engineer. She aims to work smart, over-communicate, and never stop learning. She's also really into Legos and hacking IKEA furniture.</p>
+  <p>[<a target="_blank" href="images/ResumeJeanie.pdf">printer friendly version</a>]</p>
 </section>
 <section class="timeline section-padding">
   <div class="timeline-container">
     <div ng-repeat="job in jobs" class="timeline-block">
       <div class="timeline-icon" ui-jq="waypoint" ui-options="bounceIn, offset">
-        <i class="fi-power"></i>
+        <i class="fi-{{job.icon}}" id="{{job.icon}}"></i>
       </div>
       <div class="timeline-blurb" ui-jq="waypoint" ui-options="fadeInDown, offset">
         <h4>{{job.position}}</h4>
@@ -59,7 +59,7 @@
   <div class="container">
     <div class="row">
       <div class="medium-8 medium-offset-2 columns white">
-        <h1>Portfolio: <span>select works</span></h1>
+        <h1>Portfolio: <span>completed and ongoing projects</span></h1>
       </div>
     </div>
   </div>
@@ -84,7 +84,7 @@
   <div class="container">
     <div class="row">
       <h2>Other interests</h2>
-      <div class="medium-2 columns" ng-class="{'end':$last}" ng-repeat="item in interests">
+      <div class="medium-3 columns" ng-class="{'end':$last}" ng-repeat="item in interests">
         <span ng-include="item.path"></span>
         <p>{{item.description}}</p>
       </div>

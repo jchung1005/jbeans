@@ -1,8 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<g id="Captions">
-</g>
-<g id="Your_Icon">
-	<polygon points="9.9,87 99,87 99,14.1 50.4,14.1 50.4,22.2 90.9,22.2 90.9,78.899 18,78.899 18,54.601 9.9,54.601  "/>
-	<polygon points="34.2,14.1 26.1,14.1 26.1,6 18,6 9.9,6 9.9,22.2 9.9,30.3 1.8,30.3 1.8,46.5 18,46.5 18,38.4 18,30.3 18,22.2    26.1,22.2 34.2,22.2 34.2,38.4 26.1,38.4 26.1,54.601 34.2,54.601 42.3,54.601 42.3,38.4 42.3,22.2 42.3,14.1  "/>
-</g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="97.944px" viewBox="1.054 1.442 100 97.944" enable-background="new 1.054 1.442 100 97.944"
+	 xml:space="preserve">
+<path d="M59.455,39.583C50.854,23.803,52.435,1.561,27.884,1.442C3.334,1.324,1.054,18.515,1.054,41.26v57.744l16.152,0.382
+	l83.848-0.382V72.175C101.055,42.906,68.974,57.051,59.455,39.583z M96.177,94.126H5.932V81.931h4.877v9.755h2.44v-9.755h2.438
+	v9.755h2.439v-9.755h9.755v9.755h2.439v-9.755h2.44v9.755h2.438v-9.755h2.44v9.755h2.439v-9.755h7.317v9.755h2.438v-9.755h2.439
+	v9.755h2.438v-9.755h9.758v9.755h2.44v-9.755h2.438v9.755h2.439v-9.755h2.438v9.755h2.44v-9.755h7.317v9.755h2.439v-9.755h2.438
+	v9.755h2.438v-9.755h4.879V94.126z"/>
 </svg>
