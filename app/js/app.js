@@ -10,8 +10,7 @@ var app = angular.module('myApp', [
   'myApp.directives',
   'myApp.controllers',
   'mm.foundation',
-  'ui.utils',
-  'angularCharts'
+  'ui.utils'
 ]);
 
 
@@ -39,11 +38,12 @@ app.config(['$routeProvider', function($routeProvider) {
 }]);
 
 
-app.run(function ($rootScope, $location) {
+app.run(function ($rootScope, $location, $anchorScroll) {
   $rootScope.$on("$locationChangeStart", function (event, next, current) {
     if (!$location.path().match(/^\/?$/) && !$rootScope.visitedOnce) {
       $rootScope.visitedOnce = true;
     }
+    $anchorScroll();
   });
 });
 

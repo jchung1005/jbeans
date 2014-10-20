@@ -27,21 +27,21 @@ angular.module('myApp.controllers', [])
         name: 'Jeanie',
         position: 'devengineer/shark afficionado',
         description: 'Jeanie is a developer who tries to code every process in her life. She almost always picks the fire Pokémon starter, plays "Rogue" class, and has a penchant for live music and scuba diving. She loves going to the Shedd Aquarium, her favorite spot in Chicago.',
-        img: 'jeanie.jpg',
+        img: '/images/jeanie.jpg',
         animation: 'fadeLeft'
       },
       {
         name: 'Jo',
         position: 'moral support/tasty beverage',
         description: 'Jo always gets the team through a tough spot and is probably the hottest of the team. She\'s always the first one to say, "We\'ve got this, guys!" Her interests include mugs.',
-        img: 'coffee.jpg',
+        img: '/images/coffee.jpg',
         animation: 'fadeInDown'
       },
       {
         name: 'Jelly',
         position: 'drunk baby antics/shepherd mix',
         description: '80% pain-in-the-butt and 20% cute-face, Jelly often likes to sit on laptops, hindering a lot of work. Her interests include squeaky toys and sticks that are bigger than her body.',
-        img: 'jelly.jpg',
+        img: '/images/jelly.jpg',
         animation: 'fadeRight'
       }
     ];
@@ -233,9 +233,9 @@ angular.module('myApp.controllers', [])
       }
     };
     $scope.animatePerc = function() {
-      $(this).animate({
-        width:$(this).attr('data-percent')
-      },1000);
+        $(this).animate({
+          width:$(this).attr('data-percent')
+        },1000);
     };
 
     $scope.offset = {

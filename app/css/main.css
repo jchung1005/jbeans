@@ -291,9 +291,9 @@ Portfolio
   font-weight: 300;
 }
 
-@media all and (max-width: 770px) {
+@media all and (min-width: 800px) {
   .portfolio figure {
-    visibility: visible;
+    visibility: hidden;
   } 
 }
 
@@ -767,8 +767,17 @@ nav.top-bar.expanded {
   height: 216px;
 }
 
+.top-bar {
+  height: 40px;
+}
+
+.sticky {
+  position: fixed;
+  z-index: 99;
+}
+
 nav.top-bar {
-  transition: height .3s ease-in-out;
+  transition: height .4s ease-in-out;
 }
 
 .top-bar-section ul li > a {

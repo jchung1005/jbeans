@@ -68,8 +68,8 @@
   <div class="container">
     <div class="row">
       <div class="large-6 medium-6 columns" ng-repeat="item in portfolio">
-          <figure class="hidden effect-bubba delay-{{item.delay}}" ui-jq="waypoint" ui-options="{{item.animation}}, offset">
-            <img src="{{item.img}}" />
+          <figure class="effect-bubba delay-{{item.delay}}" ui-jq="waypoint" ui-options="{{item.animation}}, offset">
+            <img ng-src="{{item.img}}" />
             <figcaption>
               <h2>{{item.title}}</h2>
               <!-- <p>{{item.description}}</p> -->
