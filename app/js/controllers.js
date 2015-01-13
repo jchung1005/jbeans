@@ -27,7 +27,7 @@ angular.module('myApp.controllers', [])
         name: 'Jeanie',
         position: 'devengineer/shark afficionado',
         description: 'Jeanie is a developer who tries to code every process in her life. She almost always picks the fire Pokémon starter, plays "Rogue" class, and has a penchant for live music and scuba diving. She loves going to the Shedd Aquarium, her favorite spot in Chicago.',
-        img: '/images/jeanie.jpg',
+        img: '/images/jeanie-bio-pic-2.jpg',
         animation: 'fadeLeft'
       },
       {
@@ -52,6 +52,20 @@ angular.module('myApp.controllers', [])
     $scope.jobs = [
       {
         dates: "Present",
+        position: "Engineer",
+        company: "ZURB",
+        location: "The Bay Area",
+        tasks: [
+          {
+           one: "Tinkering.",
+           two: "Herding cats.",
+           three: "Clickity-clacking." 
+          }
+        ],
+        icon: "social-zurb"
+      },
+      {
+        dates: "3.2014-11.2014",
         position: "Developer",
         company: "NORTHWESTERN UNIVERSITY",
         location: "Chicago, IL",
@@ -284,8 +298,8 @@ angular.module('myApp.controllers', [])
       icon: 'social-linkedin'
     },
     {
-      title: 'XBL',
-      url: 'http://www.xboxgamertag.com/search/jbeans5/',
-      icon: 'social-xbox'
+      title: 'Twitter',
+      url: 'http://www.twitter.com/jbeans5',
+      icon: 'social-twitter'
     }];
   }]);
