@@ -75,26 +75,28 @@ Hero
 ========================================================================== */
 
 .hero {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   display: table;
   background-attachment: fixed; 
-
+  background: no-repeat center;
   width: 100%;
-
 }
 .hero .container {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  height: 650px;
+  height: 700px;
 }
 
 .home-badge {
   width: 40em;
 }
+
+@media screen and (max-width: 50em) {
+  .hero {
+    height: 300px;
+  }
+}
+
 
 /* ==========================================================================
 Animations
@@ -306,13 +308,13 @@ figure.effect-bubba {
 }
 
 figure.effect-bubba img {
-  opacity: 0.6;
+  opacity: 0;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
 
 figure.effect-bubba:hover img {
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 figure.effect-bubba figcaption::before,
@@ -328,35 +330,14 @@ figure.effect-bubba figcaption::after {
   transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-bubba figcaption::before {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: scale(0,1);
-  transform: scale(0,1);
-}
 
-figure.effect-bubba figcaption::after {
-  border-right: 1px solid #fff;
-  border-left: 1px solid #fff;
-  -webkit-transform: scale(1,0);
-  transform: scale(1,0);
-}
 
 figure.effect-bubba h2 {
-  padding-top: 30%;
+  padding-top: 15%;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
-  -webkit-transform: translate3d(0,-15px,0);
-  transform: translate3d(0,-15px,0);
-}
-
-figure.effect-bubba p {
-  padding: 5px 2.5em;
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,20px,0);
-  transform: translate3d(0,20px,0);
+  -webkit-transform: translate3d(0,15px,0);
+  transform: translate3d(0,15px,0);
 }
 
 figure.effect-bubba:hover figcaption::before,
@@ -470,6 +451,10 @@ CV - Timeline
 }
 
 #loop {
+  left: 52%;
+}
+
+#social-zurb {
   left: 52%;
 }
 .timeline-blurb {

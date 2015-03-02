@@ -26,22 +26,22 @@ angular.module('myApp.controllers', [])
       {
         name: 'Jeanie',
         position: 'devengineer/shark afficionado',
-        description: 'Jeanie is a developer who tries to code every process in her life. She almost always picks the fire Pokémon starter, plays "Rogue" class, and has a penchant for live music and scuba diving. She loves going to the Shedd Aquarium, her favorite spot in Chicago.',
-        img: '/images/jeanie-bio-pic-2.jpg',
+        description: 'Jeanie is a developer who tries to code every process in her life. She almost always picks the fire Pokémon starter, plays "Rogue" class, and has a penchant for live music and scuba diving. She loves going to the Monterey Bay Aquarium.',
+        img: '../images/jeanie-bio-pic-2.jpg',
         animation: 'fadeLeft'
       },
       {
         name: 'Jo',
         position: 'moral support/tasty beverage',
         description: 'Jo always gets the team through a tough spot and is probably the hottest of the team. She\'s always the first one to say, "We\'ve got this, guys!" Her interests include mugs.',
-        img: '/images/coffee.jpg',
+        img: '../images/coffee.jpg',
         animation: 'fadeInDown'
       },
       {
         name: 'Jelly',
         position: 'drunk baby antics/shepherd mix',
         description: '80% pain-in-the-butt and 20% cute-face, Jelly often likes to sit on laptops, hindering a lot of work. Her interests include squeaky toys and sticks that are bigger than her body.',
-        img: '/images/jelly.jpg',
+        img: '../images/jelly.jpg',
         animation: 'fadeRight'
       }
     ];
@@ -127,14 +127,14 @@ angular.module('myApp.controllers', [])
         perc: "80",
         labelColor: "#2B7C80",
         barColor: "#20B2AA",
-        tooltip: "JavaScript, Ruby, Python"
+        tooltip: "JavaScript, Ruby, Python, PHP, Node.js, MAMP, MEAN"
       },
       {
         name: "Web",
         perc: "70",
         labelColor: "#48D1CC",
         barColor: "#AFEEEE",
-        tooltip: "HTML, CSS, Foundation, Bootstrap, WordPress, jQuery"
+        tooltip: "HTML, CSS, Foundation, Bootstrap, WordPress"
       },
       {
         name: "Design",
@@ -152,58 +152,40 @@ angular.module('myApp.controllers', [])
       }];
 
     $scope.portfolio = [{
-        title: 'Seabreeze Charter',
-        img: 'images/cv-seabreeze.jpg',
+        title: 'Foundation for Sites',
+        img: '../images/juggle-yeti.svg',
         description: 'Website facelifts = free boat rides on Lake Michigan.',
         effect:'bubba',
         delay:'0',
         animation: 'fadeLeft',
-        url: 'http://seabreezesail.com/'
+        url: 'https://github.com/zurb/foundation'
       },
       {
-        title: 'CONEMO',
-        img: '',
+        title: 'Foundation for Apps',
+        img: '../images/yeti-hero.svg',
         description: 'Lorem ipsum bacon dolor pig fat jowl.',
         effect:'bubba',
         delay:'.5s',
         animation: 'fadeRight',
-        url: 'https://github.com/cbitstech/conemo_app'
+        url: 'https://github.com/zurb/foundation-apps'
       },
       {
-        title: 'FOCUS',
-        img: '',
+        title: 'Foundation for Emails',
+        img: '../images/inky-point.svg',
         description: 'Lorem ipsum bacon dolor pig fat jowl.',
         effect:'bubba',
         delay:'0s',
         animation: 'fadeLeft',
-        url: 'https://github.com/cbitstech/focus_app'
+        url: 'https://github.com/zurb/foundation-emails'
       },
       {
-        title: 'Special K',
-        img: 'images/cv-specialk.png',
+        title: 'Rainbow Ipsum',
+        img: '../images/rainbow.png',
         description: 'Lorem ipsum bacon dolor pig fat jowl.',
         effect:'bubba',
         delay:'.5s',
         animation: 'fadeRight',
-        url: "http://www.specialk.com/en_us/home-page.html"
-      },
-      {
-        title: 'Fido\'s Gotta Go',
-        img: 'images/cv-fido.jpeg',
-        description: 'Lorem ipsum bacon dolor pig fat jowl.',
-        effect:'bubba',
-        delay:'0s',
-        animation: 'fadeLeft',
-        url: 'http://www.fidosgottago.com/'
-      },
-      {
-        title: 'CBITS',
-        img: '',
-        description: 'Lorem ipsum bacon dolor pig fat jowl.',
-        effect:'bubba',
-        delay:'0s',
-        animation: 'fadeRight',
-        url: 'http://www.thecbits.com/'
+        url: "http://rainbowipsum.com"
       }];
 
     $scope.interests = [
